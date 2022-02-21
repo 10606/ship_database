@@ -65,3 +65,42 @@ create index on ship_torpedo_tubes(date_from, date_to);
 create index on ship_torpedo_tubes(date_to, date_from);
 
 
+
+create or replace function ship_torpedo_tubes_install_check ()
+returns trigger
+    language plpgsql
+as $$
+declare
+begin
+    set transaction isolation level read committed;
+
+    if (not exists
+        (select (ship_id, tube_id, date_from) 
+            from ship_torpedo_tubes
+        except all select (ship_torpedo_tubes.ship_id, tube_id, ship_torpedo_tubes.date_from)
+            from ship_torpedo_tubes 
+            inner join ship_event_list on (ship_torpedo_tubes.ship_id = ship_event_list.ship_id)
+            where (ship_event_list.date_from <= ship_torpedo_tubes.date_from) and
+                  (ship_torpedo_tubes.date_from <= ship_event_list.date_to)
+        except all select (ship_torpedo_tubes.ship_id, tube_id, ship_torpedo_tubes.date_from)
+            from ship_torpedo_tubes 
+            inner join ship_list on (ship_torpedo_tubes.ship_id = ship_list.id)
+            where (ship_torpedo_tubes.date_from <= ship_list.commissioned)
+        ))
+    then
+    else
+        raise exception 'установка торпедных аппаратов в открытом море...';
+    end if;
+    return new;
+end;
+$$;
+
+drop trigger if exists ship_torpedo_tubes_install_trigger on ship_torpedo_tubes;
+create trigger ship_torpedo_tubes_install_trigger
+    after insert or update
+    on ship_torpedo_tubes
+    for each statement
+    execute procedure ship_torpedo_tubes_install_check();
+
+
+

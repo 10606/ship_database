@@ -65,3 +65,42 @@ create index on ship_searchers(date_from, date_to);
 create index on ship_searchers(date_to, date_from);
 
 
+
+create or replace function ship_searchers_install_check ()
+returns trigger
+    language plpgsql
+as $$
+declare
+begin
+    set transaction isolation level read committed;
+
+    if (not exists
+        (select (ship_id, searcher_id, date_from) 
+            from ship_searchers
+        except all select (ship_searchers.ship_id, searcher_id, ship_searchers.date_from)
+            from ship_searchers 
+            inner join ship_event_list on (ship_searchers.ship_id = ship_event_list.ship_id)
+            where (ship_event_list.date_from <= ship_searchers.date_from) and
+                  (ship_searchers.date_from <= ship_event_list.date_to)
+        except all select (ship_searchers.ship_id, searcher_id, ship_searchers.date_from)
+            from ship_searchers 
+            inner join ship_list on (ship_searchers.ship_id = ship_list.id)
+            where (ship_searchers.date_from <= ship_list.commissioned)
+        ))
+    then
+    else
+        raise exception 'установка чего-либо в открытом море...';
+    end if;
+    return new;
+end;
+$$;
+
+drop trigger if exists ship_searchers_install_trigger on ship_searchers;
+create trigger ship_searchers_install_trigger
+    after insert or update
+    on ship_searchers
+    for each statement
+    execute procedure ship_searchers_install_check();
+
+
+

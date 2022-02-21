@@ -65,3 +65,41 @@ create index on ship_throwers(date_from, date_to);
 create index on ship_throwers(date_to, date_from);
 
 
+create or replace function ship_throwers_install_check ()
+returns trigger
+    language plpgsql
+as $$
+declare
+begin
+    set transaction isolation level read committed;
+
+    if (not exists
+        (select (ship_id, throwers_id, date_from) 
+            from ship_throwers
+        except all select (ship_throwers.ship_id, throwers_id, ship_throwers.date_from)
+            from ship_throwers 
+            inner join ship_event_list on (ship_throwers.ship_id = ship_event_list.ship_id)
+            where (ship_event_list.date_from <= ship_throwers.date_from) and
+                  (ship_throwers.date_from <= ship_event_list.date_to)
+        except all select (ship_throwers.ship_id, throwers_id, ship_throwers.date_from)
+            from ship_throwers 
+            inner join ship_list on (ship_throwers.ship_id = ship_list.id)
+            where (ship_throwers.date_from <= ship_list.commissioned)
+        ))
+    then
+    else
+        raise exception 'установка бомбометов в открытом море...';
+    end if;
+    return new;
+end;
+$$;
+
+drop trigger if exists ship_throwers_install_trigger on ship_throwers;
+create trigger ship_throwers_install_trigger
+    after insert or update
+    on ship_throwers
+    for each statement
+    execute procedure ship_throwers_install_check();
+
+
+

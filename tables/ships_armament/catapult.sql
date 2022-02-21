@@ -65,3 +65,42 @@ create index on ship_catapult(date_from, date_to);
 create index on ship_catapult(date_to, date_from);
 
 
+
+create or replace function ship_catapult_install_check ()
+returns trigger
+    language plpgsql
+as $$
+declare
+begin
+    set transaction isolation level read committed;
+
+    if (not exists
+        (select (ship_id, catapult_id, date_from) 
+            from ship_catapult
+        except all select (ship_catapult.ship_id, catapult_id, ship_catapult.date_from)
+            from ship_catapult 
+            inner join ship_event_list on (ship_catapult.ship_id = ship_event_list.ship_id)
+            where (ship_event_list.date_from <= ship_catapult.date_from) and
+                  (ship_catapult.date_from <= ship_event_list.date_to)
+        except all select (ship_catapult.ship_id, catapult_id, ship_catapult.date_from)
+            from ship_catapult 
+            inner join ship_list on (ship_catapult.ship_id = ship_list.id)
+            where (ship_catapult.date_from <= ship_list.commissioned)
+        ))
+    then
+    else
+        raise exception 'установка катапульт в открытом море...';
+    end if;
+    return new;
+end;
+$$;
+
+drop trigger if exists ship_catapult_install_trigger on ship_catapult;
+create trigger ship_catapult_install_trigger
+    after insert or update
+    on ship_catapult
+    for each statement
+    execute procedure ship_catapult_install_check();
+
+
+

@@ -66,3 +66,42 @@ create index on ship_guns(date_from, date_to);
 create index on ship_guns(date_to, date_from);
 
 
+
+create or replace function ship_guns_install_check ()
+returns trigger
+    language plpgsql
+as $$
+declare
+begin
+    set transaction isolation level read committed;
+
+    if (not exists
+        (select (ship_id, mount_id, date_from) 
+            from ship_guns
+        except all select (ship_guns.ship_id, mount_id, ship_guns.date_from)
+            from ship_guns 
+            inner join ship_event_list on (ship_guns.ship_id = ship_event_list.ship_id)
+            where (ship_event_list.date_from <= ship_guns.date_from) and
+                  (ship_guns.date_from <= ship_event_list.date_to)
+        except all select (ship_guns.ship_id, mount_id, ship_guns.date_from)
+            from ship_guns 
+            inner join ship_list on (ship_guns.ship_id = ship_list.id)
+            where (ship_guns.date_from <= ship_list.commissioned)
+        ))
+    then
+    else
+        raise exception 'установка орудий в открытом море...';
+    end if;
+    return new;
+end;
+$$;
+
+drop trigger if exists ship_guns_install_trigger on ship_guns;
+create trigger ship_guns_install_trigger
+    after insert or update
+    on ship_guns
+    for each statement
+    execute procedure ship_guns_install_check();
+
+
+
