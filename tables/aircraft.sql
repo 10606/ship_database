@@ -5,8 +5,8 @@ create table bombs
     name_ru varchar(100),
     name_en varchar(100),
     
-    mass double precision,
-    mass_ex double precision,
+    mass double precision,    /* кг */
+    mass_ex double precision, /* кг */
     in_service date,
 
     primary key (id)
