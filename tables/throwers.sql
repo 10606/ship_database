@@ -20,8 +20,6 @@ alter table mine_list add check (mass_ex >= 0);
 alter table mine_list add check (mass >= mass_ex);
 
 create index on mine_list(id);
-create index on mine_list(name_ru);
-create index on mine_list(name_en);
 
 
 create table throwers
@@ -43,8 +41,6 @@ alter table throwers add check (tubes_count > 0);
 /* throwers >=< mine_list    */
 
 create index on throwers(id);
-create index on throwers(name_ru);
-create index on throwers(name_en);
 
 
 create table thrower__depth_charge
@@ -93,7 +89,5 @@ create table catapult
         on delete restrict on update cascade
 );
 create index on catapult(id);
-create index on catapult(name_ru);
-create index on catapult(name_en);
 
 

@@ -24,8 +24,6 @@ create table ship_types
 );
 
 create index on ship_types(id);
-create index on ship_types(name_ru);
-create index on ship_types(name_en);
 
 
 create table ship_list
@@ -49,11 +47,9 @@ create table ship_list
 alter table ship_list add check (commissioned <= sunk_date);
 
 create index on ship_list(id);
-create index on ship_list(name_ru);
-create index on ship_list(name_en);
-create index on ship_list(commissioned);
-create index on ship_list(sunk_date);
+create index on ship_list(commissioned, sunk_date);
 create index on ship_list(type_id);
 create index on ship_list(class_id);
+create index ship_list_ordered on ship_list using btree (class_id, type_id, commissioned, name_ru, id);
 
 

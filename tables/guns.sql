@@ -12,8 +12,6 @@ create table gun_class
 );
 
 create index on gun_class(id);
-create index on gun_class(name_ru);
-create index on gun_class(name_en);
 
 
 create table gun_list
@@ -42,8 +40,6 @@ alter table gun_list add check (mass > 0);
 alter table gun_list add check (build_cnt >= 0);
 
 create index on gun_list(id);
-create index on gun_list(name_ru);
-create index on gun_list(name_en);
 create index on gun_list(class_id);
 
 

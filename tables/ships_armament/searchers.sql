@@ -59,10 +59,8 @@ create trigger ship_searchers_trigger
     execute procedure ship_searchers_check();
 
 
-create index on ship_searchers(ship_id);
+create index on ship_searchers(ship_id, date_from, date_to);
 create index on ship_searchers(searcher_id);
-create index on ship_searchers(date_from, date_to);
-create index on ship_searchers(date_to, date_from);
 
 
 

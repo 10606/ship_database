@@ -59,10 +59,8 @@ create trigger ship_catapult_trigger
     execute procedure ship_catapult_check();
 
 
-create index on ship_catapult(ship_id);
+create index on ship_catapult(ship_id, date_from, date_to);
 create index on ship_catapult(catapult_id);
-create index on ship_catapult(date_from, date_to);
-create index on ship_catapult(date_to, date_from);
 
 
 

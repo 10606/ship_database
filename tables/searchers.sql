@@ -19,8 +19,6 @@ create table searchers
 alter table searchers add check (build_cnt >= 0);
 
 create index on searchers(id);
-create index on searchers(name_ru);
-create index on searchers(name_en);
 create index on searchers(class_id);
 
 
@@ -38,8 +36,6 @@ create table target_class
         on delete restrict on update cascade
 );
 create index on target_class(id);
-create index on target_class(name_ru);
-create index on target_class(name_en);
 
 
 

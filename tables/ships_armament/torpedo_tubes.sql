@@ -59,10 +59,8 @@ create trigger ship_torpedo_tubes_trigger
     execute procedure ship_torpedo_tubes_check();
 
 
-create index on ship_torpedo_tubes(ship_id);
+create index on ship_torpedo_tubes(ship_id, date_from, date_to);
 create index on ship_torpedo_tubes(tube_id);
-create index on ship_torpedo_tubes(date_from, date_to);
-create index on ship_torpedo_tubes(date_to, date_from);
 
 
 

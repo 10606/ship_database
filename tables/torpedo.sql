@@ -23,8 +23,6 @@ alter table torpedo_list add check (mass_ex >= 0);
 alter table torpedo_list add check (mass >= mass_ex);
 
 create index on torpedo_list(id);
-create index on torpedo_list(name_ru);
-create index on torpedo_list(name_en);
 
 
 create table torpedo_tubes
@@ -46,8 +44,6 @@ alter table torpedo_tubes add check (tubes_count > 0);
 /* torpedo_tubes >=< torpedo_list */
 
 create index on torpedo_tubes(id);
-create index on torpedo_tubes(name_ru);
-create index on torpedo_tubes(name_en);
 
 create or replace function topedo_tubes_check ()
 returns trigger

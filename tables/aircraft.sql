@@ -29,6 +29,8 @@ create table aircraft_class
         on delete restrict on update cascade
 );
 
+create index on aircraft_class(id);
+
 
 create table aircraft_types
 (
@@ -40,8 +42,6 @@ create table aircraft_types
 );
 
 create index on aircraft_types(id);
-create index on aircraft_types(name_ru);
-create index on aircraft_types(name_en);
 
 
 create table aircraft_list
@@ -83,8 +83,6 @@ alter table aircraft_list add check (ceiling > 0);
 alter table aircraft_list add check (time_to_altitude > 0);
 
 create index on aircraft_list(id);
-create index on aircraft_list(name_ru);
-create index on aircraft_list(name_en);
 create index on aircraft_list(class_id);
 create index on aircraft_list(type_id);
 

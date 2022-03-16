@@ -58,8 +58,6 @@ create trigger ship_event_trigger
     execute procedure ship_event_check();
 
     
-create index on ship_event_list(ship_id);
-create index on ship_event_list(date_from, date_to);
-create index on ship_event_list(date_to, date_from);
+create index on ship_event_list(ship_id, date_from, date_to);
 
 
