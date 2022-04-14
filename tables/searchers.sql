@@ -18,8 +18,7 @@ create table searchers
 );
 alter table searchers add check (build_cnt >= 0);
 
-create index on searchers(id);
-create index on searchers(class_id);
+create index on searchers using hash (class_id);
 
 
 
@@ -35,7 +34,6 @@ create table target_class
     foreign key (parent_id) references target_class(id)
         on delete restrict on update cascade
 );
-create index on target_class(id);
 
 
 
@@ -84,5 +82,6 @@ create trigger searchers_range_trigger
     for each statement
     execute procedure searchers_range_check();
 
+create index on searchers_range using hash (searcher_id);
 
 

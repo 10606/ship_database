@@ -11,8 +11,6 @@ create table gun_class
         on delete restrict on update cascade
 );
 
-create index on gun_class(id);
-
 
 create table gun_list
 (
@@ -39,8 +37,7 @@ alter table gun_list add check (effective_range >= 0);
 alter table gun_list add check (mass > 0);
 alter table gun_list add check (build_cnt >= 0);
 
-create index on gun_list(id);
-create index on gun_list(class_id);
+create index on gun_list using hash (class_id);
 
 
 create table gun_mount
@@ -57,7 +54,5 @@ create table gun_mount
         on delete restrict on update cascade
 );
 alter table gun_mount add check (gun_count > 0);
-
-create index on gun_mount(id);
 
 

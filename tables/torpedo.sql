@@ -22,7 +22,6 @@ alter table torpedo_list add check (range >= 0);
 alter table torpedo_list add check (mass_ex >= 0);
 alter table torpedo_list add check (mass >= mass_ex);
 
-create index on torpedo_list(id);
 
 
 create table torpedo_tubes
@@ -43,7 +42,6 @@ alter table torpedo_tubes add check (caliber > 0);
 alter table torpedo_tubes add check (tubes_count > 0);
 /* torpedo_tubes >=< torpedo_list */
 
-create index on torpedo_tubes(id);
 
 create or replace function topedo_tubes_check ()
 returns trigger
@@ -87,6 +85,6 @@ create table thrower__torpedo
         on delete restrict on update cascade
 );
 
-create index on thrower__torpedo(thrower_id);
+create index on thrower__torpedo using hash (thrower_id);
 
 

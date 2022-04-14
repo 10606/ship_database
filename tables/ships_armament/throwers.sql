@@ -59,8 +59,8 @@ create trigger ship_throwers_trigger
     execute procedure ship_throwers_check();
 
 
-create index on ship_throwers(ship_id, date_from, date_to);
-create index on ship_throwers(throwers_id);
+create index on ship_throwers using hash (ship_id);
+create index on ship_throwers using hash (throwers_id);
 
 
 create or replace function ship_throwers_install_check ()

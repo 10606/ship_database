@@ -71,5 +71,5 @@ create trigger general_trigger
     execute procedure general_check();
 
 
-create index on general(ship_id, date_from, date_to);
+create index on general using hash (ship_id);
 

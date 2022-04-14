@@ -59,7 +59,7 @@ create trigger ship_aircraft_trigger
     execute procedure ship_aircraft_check();
 
 
-create index on ship_aircraft(ship_id, date_from, date_to);
-create index on ship_aircraft(aircraft_id);
+create index on ship_aircraft using hash (ship_id);
+create index on ship_aircraft using hash (aircraft_id);
 
 

@@ -14,8 +14,6 @@ create table bombs
 alter table bombs add check (mass_ex >= 0);
 alter table bombs add check (mass >= mass_ex);
 
-create index on bombs(id);
-
 
 create table aircraft_class
 (
@@ -29,8 +27,6 @@ create table aircraft_class
         on delete restrict on update cascade
 );
 
-create index on aircraft_class(id);
-
 
 create table aircraft_types
 (
@@ -40,8 +36,6 @@ create table aircraft_types
     
     primary key (id)
 );
-
-create index on aircraft_types(id);
 
 
 create table aircraft_list
@@ -82,8 +76,7 @@ alter table aircraft_list add check (range_with_tank >= range);
 alter table aircraft_list add check (ceiling > 0);
 alter table aircraft_list add check (time_to_altitude > 0);
 
-create index on aircraft_list(id);
-create index on aircraft_list(class_id);
-create index on aircraft_list(type_id);
+create index on aircraft_list using hash (class_id);
+create index on aircraft_list using hash (type_id);
 
 

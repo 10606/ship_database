@@ -19,7 +19,6 @@ alter table mine_list add check (size >= 0);
 alter table mine_list add check (mass_ex >= 0);
 alter table mine_list add check (mass >= mass_ex);
 
-create index on mine_list(id);
 
 
 create table throwers
@@ -40,7 +39,6 @@ alter table throwers add check (caliber > 0);
 alter table throwers add check (tubes_count > 0);
 /* throwers >=< mine_list    */
 
-create index on throwers(id);
 
 
 create table thrower__depth_charge
@@ -55,7 +53,7 @@ create table thrower__depth_charge
         on delete restrict on update cascade
 );
 
-create index on thrower__depth_charge(thrower_id);
+create index on thrower__depth_charge using hash (thrower_id);
 
 
 
@@ -67,7 +65,6 @@ create table catapult_class
     
     primary key (id)
 );
-create index on catapult_class(id);
 
 
 create table catapult
@@ -88,6 +85,5 @@ create table catapult
     foreign key (class_id) references catapult_class(id)
         on delete restrict on update cascade
 );
-create index on catapult(id);
 
 

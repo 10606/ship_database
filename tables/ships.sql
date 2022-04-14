@@ -11,7 +11,6 @@ create table ship_class
         on delete restrict on update cascade
 );
 
-create index on ship_class(id);
 
 
 create table ship_types
@@ -23,7 +22,6 @@ create table ship_types
     primary key (id)
 );
 
-create index on ship_types(id);
 
 
 create table ship_list
@@ -46,10 +44,7 @@ create table ship_list
 );
 alter table ship_list add check (commissioned <= sunk_date);
 
-create index on ship_list(id);
-create index on ship_list(commissioned, sunk_date);
-create index on ship_list(type_id);
-create index on ship_list(class_id);
-create index ship_list_ordered on ship_list using btree (class_id, type_id, commissioned, name_ru, id);
+create index on ship_list using hash (type_id);
+create index on ship_list using hash (class_id);
 
 

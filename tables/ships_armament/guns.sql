@@ -60,8 +60,8 @@ create trigger ship_guns_trigger
     execute procedure ship_guns_check();
 
 
-create index on ship_guns(ship_id, date_from, date_to);
-create index on ship_guns(mount_id);
+create index on ship_guns using hash (ship_id);
+create index on ship_guns using hash (mount_id);
 
 
 

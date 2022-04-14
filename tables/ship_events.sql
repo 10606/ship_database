@@ -7,7 +7,6 @@ create table event_class
         
     primary key (id)
 );
-create index on event_class(id);
 
 
 create table ship_event_list
@@ -58,6 +57,5 @@ create trigger ship_event_trigger
     execute procedure ship_event_check();
 
     
-create index on ship_event_list(ship_id, date_from, date_to);
-
-
+create index on ship_event_list using hash (ship_id);
+    
