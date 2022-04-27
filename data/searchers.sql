@@ -74,12 +74,13 @@ insert into searchers
     (id, name_ru,                   name_en,                   class_id,    mass,  frequency,   power, build_cnt,   in_service)
     values                                                                      /* видимый свет */
     (34, '110см прожектор',         '110cm searhlight',             13,     null,   560000000,  null,   null,        null),
-    (29, '110см прожектор',         '110cm searhlight',             13,     null,   560000000,  null,   null,       '1925-01-01'),
+    (29, '110см прожектор Sperry',  '110cm searhlight Sperry',      13,     null,   560000000,  null,   null,       '1925-01-01'),
     (30, '110см прожектор тип 92',  '110cm searhlight type 92',     13,     null,   560000000,  null,   null,       '1933-01-01'),
     (35, '150см прожектор',         '150cm searhlight',             13,     null,   560000000,  null,   null,        null),
     (31, '150см прожектор тип 96',  '150cm searhlight type 96',     13,     null,   560000000,  null,   null,       '1937-01-01'),
-    (36, '90см прожектор',          '90cm searhlight',              13,     null,   560000000,  null,   null,        null),
+    (36, '90см прожектор Sperry',   '90cm searhlight Sperry',       13,     null,   560000000,  null,   null,        null),
     (32, '90см прожектор тип 96',   '90cm searhlight type 96',      13,     null,   560000000,  null,   null,       '1937-01-01'),
+    (37, '60см прожектор',          '60cm searhlight',              13,     null,   560000000,  null,   null,        null),
     (33, '60см прожектор тип 94',   '60cm searhlight type 94',      13,     null,   560000000,  null,   null,       '1934-01-01');
           
 
