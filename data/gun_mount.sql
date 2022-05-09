@@ -210,6 +210,7 @@ insert into gun_mount
 
     /* 7.7mm Lewis */
     (49,  null,                              null,          38, 1, 85),
+    (58,  null,                              null,          43, 1, 85),
     
     /* 6.5mm type 3 */
     (50,  null,                              null,          26, 1, 85),
