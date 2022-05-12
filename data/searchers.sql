@@ -81,7 +81,8 @@ insert into searchers
     (36, '90см прожектор Sperry',   '90cm searhlight Sperry',       13,     null,   560000000,  null,   null,        null),
     (32, '90см прожектор тип 96',   '90cm searhlight type 96',      13,     null,   560000000,  null,   null,       '1937-01-01'),
     (37, '60см прожектор',          '60cm searhlight',              13,     null,   560000000,  null,   null,        null),
-    (33, '60см прожектор тип 94',   '60cm searhlight type 94',      13,     null,   560000000,  null,   null,       '1934-01-01');
+    (33, '60см прожектор тип 94',   '60cm searhlight type 94',      13,     null,   560000000,  null,   null,       '1934-01-01'),
+    (38, '40см прожектор',          '40cm searhlight',              13,     null,   560000000,  null,   null,        null);
           
 
     
