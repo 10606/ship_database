@@ -1,6 +1,6 @@
 \i ships/_all.sql
 
-\i aviation.sql
+\i aircraft/_all.sql
 \i catapult.sql
 \i eng_names.sql
 \i gun_mount.sql
