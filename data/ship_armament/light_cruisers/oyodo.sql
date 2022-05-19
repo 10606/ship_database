@@ -34,7 +34,7 @@ insert into ship_event_list
 insert into ship_guns
     (ship_id, mount_id, amount, date_from, date_to)
     values
-    (33, 24, 3, '1943-02-28', '1945-07-28');
+    (33, 24, 2, '1943-02-28', '1945-07-28');
 
  
     
