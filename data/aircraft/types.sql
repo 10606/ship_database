@@ -58,5 +58,8 @@ insert into aircraft_types
     (37, 'торпедоносец тип 96',             'Mitsubishi G3M Nell'),
     (38, 'транспорт тип 96',                'Yokosuka L3Y'),
     (39, 'торпедоносец тип 1',              'Mitsubishi G4M Betty'),
-    (40, 'истребитель тип 1',               'Ki-43 Hayabusa (Oscar)');
+    (40, 'истребитель тип 1',               'Ki-43 Hayabusa (Oscar)'),
+    (41, 'палубный штурмовик тип 13',       'Mitsubishi B1M'),
+    (42, 'разведчик тип 10',                'Nakajima C1N'),
+    (43, 'палубный штурмовик тип 96',       'Yokosuka B4Y Jean');
 
