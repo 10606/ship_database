@@ -54,7 +54,8 @@ insert into ship_searchers
     
     
 /* авиагруппа */
-    /* 2 подъемника, 1 кран */
+    /* до 1935-10-24 2 подъемника */
+    /*  c 1938-08-31 3 подъемника */
 insert into ship_aircraft
     (ship_id, aircraft_id, amount, date_from, date_to)
     values
