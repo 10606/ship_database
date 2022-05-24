@@ -1,6 +1,6 @@
     
 /*
-    58 - Кага     | Kaga      | 1928-03-31   | 1942-06-04 | Мидуэй
+    58 - Кага
 */
     
     
@@ -57,7 +57,7 @@ insert into ship_guns
 insert into ship_searchers
     (ship_id, searcher_id, amount, date_from, date_to)
     values
-    (58, 36, 4, '1935-11-15', '1942-06-04');
+    (58, 32, 4, '1936-06-10', '1942-06-04');
 
     
     
