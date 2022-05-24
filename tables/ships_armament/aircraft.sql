@@ -5,6 +5,7 @@ create table ship_aircraft
     aircraft_id int not null,
     
     amount int not null,
+    amount_reserve int not null default 0,
     date_from date,
     date_to date,
     
@@ -15,7 +16,8 @@ create table ship_aircraft
         on delete restrict on update cascade
 );
 alter table ship_aircraft add check (date_from <= date_to);
-alter table ship_aircraft add check (amount > 0);
+alter table ship_aircraft add check (amount >= 0);
+alter table ship_aircraft add check (amount_reserve >= 0);
 
 create or replace function ship_aircraft_check ()
 returns trigger
