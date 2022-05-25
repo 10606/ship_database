@@ -223,3 +223,10 @@ insert into gun_mount
     
 
 
+/* НУРС */
+insert into gun_mount 
+    (id, name_ru, name_en, gun_id, gun_count, angle)
+    values
+    (61,  null,                              null,          44, 28, null);
+
+

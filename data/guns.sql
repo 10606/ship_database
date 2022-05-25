@@ -60,7 +60,14 @@ insert into gun_list
     (22, 'тип 89',              'type 89',                  127, 40,    1,   10,  9400,   3100,   1500, '1932-01-01'),
     (23, 'тип 5',               'type 5',                   150, 60,    1,   10, 14000,   9200,      2, '1945-05-01');
 
+    
+/* НУРС */
+insert into gun_list
+    (id, name_ru, name_en, caliber, length, class_id, rate_of_fire, effective_range, mass, build_cnt, in_service)
+    values
+    (44, 'пусковые установки НУРС', 'rocket launcher',  120, null,  7,  null,  null, null,  null, null);
 
+    
 /*
  Te калибр < 11мм (Te-4)
  Ho               (12.7мм Ho-103) (20мм Ho-5)
