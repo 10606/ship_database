@@ -32,14 +32,6 @@ insert into ship_guns
     
     
     
-/* бомбометы */
-insert into ship_throwers
-    (ship_id, throwers_id, amount, date_from, date_to)
-    values
-    (69, 0, 1, '1944-03-07', '1944-06-19');
-    
-    
-    
 /* радары */
 insert into ship_searchers
     (ship_id, searcher_id, amount, date_from, date_to)

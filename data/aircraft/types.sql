@@ -11,7 +11,8 @@ insert into aircraft_class
     (6, 2,      'гидросамолет разведчик',       'reconnaissance'),  /* E F */
     (7, 2,      'летающая лодка',               'flying boat'),     /* H */
     (8, 1,      'гидросамолет торпедоносец',    'torpedo bomber'),  /* M */
-    (9, null,   'транспорт',                    'transport');       /* L */
+    (9, null,   'транспорт',                    'transport'),       /* L */
+    (10, null,  'реактивный снаряд',            'rocket aircraft');
 
  
 /* http://www.airwar.ru/enc/fww2/ */
@@ -64,5 +65,6 @@ insert into aircraft_types
     (43, 'палубный штурмовик тип 96',       'Yokosuka B4Y Jean'),
     (44, 'истребитель тип 90',              'Nakajima A2N'),
     (45, 'торпедоносец тип 89',             'Mitsubishi B2M'),
-    (46, 'истребитель тип 95',              'Nakajima A4N');
+    (46, 'истребитель тип 95',              'Nakajima A4N'),
+    (47, 'реактивный снаряд',               'Yokosuka MXY7 Okha');
 

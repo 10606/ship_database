@@ -6,5 +6,6 @@
 \i shokaku.sql
 \i junyo.sql
 \i zuiho.sql
+\i unryu.sql
 \i taiho.sql
 \cd ..
