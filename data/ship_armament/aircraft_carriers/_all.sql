@@ -8,4 +8,5 @@
 \i zuiho.sql
 \i unryu.sql
 \i taiho.sql
+\i shinano.sql
 \cd ..
