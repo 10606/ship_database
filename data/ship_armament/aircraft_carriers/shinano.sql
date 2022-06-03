@@ -43,7 +43,11 @@ insert into ship_searchers
     
     
 /* авиагруппа */
-    /* 2 подъемника, 1 кран */
+/* 
+    2 подъемника:
+        15м * 14м 7500кг
+        15м * 14м 7500кг
+*/
 insert into ship_aircraft
     (ship_id, aircraft_id, amount, amount_reserve, date_from, date_to)
     values

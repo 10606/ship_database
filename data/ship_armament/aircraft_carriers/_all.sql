@@ -5,6 +5,7 @@
 \i soryu.sql
 \i shokaku.sql
 \i junyo.sql
+\i ryuho.sql
 \i zuiho.sql
 \i unryu.sql
 \i taiho.sql
