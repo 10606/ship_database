@@ -19,7 +19,7 @@ insert into general
 insert into ship_event_list
     (class_id, ship_id, date_from, date_to, description)
     values
-    (6, 69, '1944-04-09', '1944-05-12',  'Филиппины, Линга');
+    (6, 69, '1944-04-09', '1944-05-12', 'Филиппины, Линга');
     
     
     

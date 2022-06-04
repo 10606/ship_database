@@ -1,4 +1,5 @@
 \cd aircraft_carriers
+\i hosho.sql
 \i akagi.sql
 \i kaga.sql
 \i ryujo.sql
