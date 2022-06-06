@@ -4,11 +4,12 @@
 \i kaga.sql
 \i ryujo.sql
 \i soryu.sql
+\i zuiho.sql
 \i shokaku.sql
 \i taiyo.sql
 \i junyo.sql
 \i ryuho.sql
-\i zuiho.sql
+\i shinyo.sql
 \i unryu.sql
 \i taiho.sql
 \i shinano.sql
