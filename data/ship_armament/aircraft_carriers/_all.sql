@@ -10,6 +10,7 @@
 \i junyo.sql
 \i ryuho.sql
 \i shinyo.sql
+\i kaiyo.sql
 \i unryu.sql
 \i taiho.sql
 \i shinano.sql

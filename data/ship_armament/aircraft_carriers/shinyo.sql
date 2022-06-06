@@ -11,7 +11,7 @@ insert into general
      length, width, draft,
      crew, speed_max, speed_cruise, range)
     values
-    (78, '1943-11-15', '1944-11-17',    17500, 20916,   189.4, 25.6, 8.2,  942, 19.6, 18, 18520);
+    (78, '1943-11-15', '1944-11-17',    17500, 20916,   189.4, 25.6, 8.2,  942, 19.6, 18, null);
 
     
     
@@ -40,6 +40,14 @@ insert into ship_searchers
     (ship_id, searcher_id, amount, date_from, date_to)
     values
     (78, 0, 1, '1943-11-15', '1944-11-17'); /* тип 21 мод 2 */
+    
+    
+    
+/* прожектора */
+insert into ship_searchers
+    (ship_id, searcher_id, amount, date_from, date_to)
+    values
+    (78, 32, 3, '1943-11-15', '1944-11-17');
 
     
     
@@ -54,3 +62,4 @@ insert into ship_aircraft
     
     (78,  8, 14, 0, '1944-11-09', '1944-11-17'); /* B5N2 */
 
+    
