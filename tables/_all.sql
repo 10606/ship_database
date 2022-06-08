@@ -18,3 +18,4 @@
 \i ships_armament/throwers.sql
 \i ships_armament/torpedo_tubes.sql
 
+\i pictures.sql
