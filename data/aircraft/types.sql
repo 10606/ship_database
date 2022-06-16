@@ -67,5 +67,6 @@ insert into aircraft_types
     (45, 'торпедоносец тип 89',             'Mitsubishi B2M'),
     (46, 'истребитель тип 95',              'Nakajima A4N'),
     (47, 'реактивный снаряд',               'Yokosuka MXY7 Okha'),
-    (48, 'армейский бомбардировщик тип 99', 'Kawasaki Ki-48 Lily');
+    (48, 'армейский бомбардировщик тип 99', 'Kawasaki Ki-48 Lily'),
+    (49, 'гидросамолет разведчик тип 16',   'Aichi E16A Zuiun (Paul)');
 
