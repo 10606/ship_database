@@ -112,6 +112,9 @@ $$;
 
 select * from ship_info order by (sunk_date, sunk_reason, class_name, type_name, name_ru);
 
+
+select count(*) from (select distinct (ship_id) from ship_guns) as top;
+
 /*
 \o /home/wa51/ship_event
 select * from ...
