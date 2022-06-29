@@ -8,5 +8,6 @@ insert into event_class
     (3, 'испытания',        'trials'),
     (4, 'сопровождение',    'escort'),
     (5, 'боевые действия',  'combat actions'),
-    (6, 'стоянка',          'stay');
+    (6, 'стоянка',          'stay'),
+    (7,  null,               null);
         
