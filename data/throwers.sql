@@ -40,6 +40,7 @@ insert into throwers
     values
     ( 0, 'тип 94',                  'type 94',          5, null, 2, '1934-01-01'), 
     ( 1, 'тип 81',                  'type 81',          5, null, 2,  null),
+    ( 5, 'тип 3',                   'type 3',           5, null, 1,  null),
     ( 2,  null,                      null,             12, null, 1,  null),
     ( 3, 'мод 3 (гидравлический)',   null,             12, null, 1,  null),
     ( 4, 'мод 1 (ручной)',           null,             12, null, 1,  null);
