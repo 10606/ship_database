@@ -1,6 +1,8 @@
 
 /* http://www.combinedfleet.com/radar.htm */
 /* https://pwencycl-kgbudge-com.translate.goog/R/a/Radar.htm?_x_tr_sch=http&_x_tr_sl=en&_x_tr_tl=ru&_x_tr_hl=ru&_x_tr_pto=op,sc */
+/* http://home.e01.itscom.net/ikasas/catalog/catalog.htm */
+/* http://home.e01.itscom.net/ikasas/radar/jprdf03.htm#type_13 */
 insert into searchers
     (id, name_ru,           name_en,        class_id,    mass,  frequency,   power, build_cnt,    in_service)
     values
@@ -61,12 +63,15 @@ insert into searchers
                                                                                                                   4-моторные бомбардировщики */
     (25, 'РЛС FH-1',        'radar FH-1',      14,        30,       341,   0.0001,  100,        '1945-02-01'), /* авиационный высотомер
                                                                                                                   летающие лодки */
-    (26, 'РЛС E-27',        'radar E-27',       8,        40,       400,     null, 2500,        '1944-03-01'), /* корабельный
+    (26, 'ндикатор ЭМИ E27','indicator ESM E27',8,        40,       400,     null, 2500,        '1944-03-01'), /* корабельный
                                                                                                                   торпедные катера */
     (27, 'РЛС FT-B',        'radar FT-B',      14,        25,       666,     null,  300,        '1944-05-01'), /* авиационный
                                                                                                                   бомбардировщики и разведчики */
-    (28, 'РЛС FT-C',        'radar FT-C',      14,        20,       666,     null,  100,        '1944-05-01'); /* авиационный
+    (28, 'РЛС FT-C',        'radar FT-C',      14,        20,       666,     null,  100,        '1944-05-01'), /* авиационный
                                                                                                                   бомбардировщики и разведчики */
+    (39, 'РЛС Tachi-18',    'radar Tachi-18',   8,      4000,       100,       50,  400,        '01-02-1943'), /* наземная */
+    (40, 'РЛС Tachi-7',     'radar Tachi-7',    8,     18000,       100,       50, null,        '01-04-1943'), /* наземная */
+    (41, 'РЛС Tachi-6',     'radar Tachi-6',    8,      null,        85,       50,  350,        '01-06-1942'); /* наземная */
 
 
 
@@ -171,6 +176,11 @@ insert into searchers_range
 
     (26, 4, 300),
     (27, 4, 300),
-    (28, 4, 300);
+    (28, 4, 300),
+    
+    (39, 1, 200),
+    (40, 0, 150),
+    (40, 1, 150),
+    (41, 1, 200);
     
 

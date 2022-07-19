@@ -37,3 +37,16 @@ create table pictures_gun
         on delete restrict on update cascade
 );
 
+
+create table pictures_searcher
+(
+    searcher_id int not null,
+    path_small text not null,
+    path_full text not null,
+    description text not null,
+    
+    primary key (searcher_id, path_full),
+    foreign key (searcher_id) references searchers(id)
+        on delete restrict on update cascade
+);
+
