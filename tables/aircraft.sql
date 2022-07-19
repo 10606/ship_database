@@ -80,3 +80,40 @@ create index on aircraft_list using hash (class_id);
 create index on aircraft_list using hash (type_id);
 
 
+create table aircraft_guns
+(
+    aircraft_id int not null,
+    gun_id int not null,
+    count int not null,
+    
+    primary key (aircraft_id, gun_id),
+    foreign key (aircraft_id) references aircraft_list(id)
+        on delete restrict on update cascade,
+    foreign key (gun_id) references gun_list(id)
+        on delete restrict on update cascade
+);
+alter table aircraft_guns add check (count > 0);
+
+create or replace function aircraft_guns_check ()
+returns trigger
+    language plpgsql
+as $$
+declare
+begin
+    set transaction isolation level read committed;
+
+    if (not exists
+        (select *
+            from aircraft_guns
+            inner join gun_list on (aircraft_guns.gun_id = gun_list.id)
+            inner join aircraft_list on (aircraft_guns.aircraft_id = aircraft_list.id)
+            where (gun_list.in_service > aircraft_list.in_service)
+        ))
+    then
+    else
+        raise exception 'временные парадоксы...';
+    end if;
+    return new;
+end;
+$$;
+
