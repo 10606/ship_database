@@ -59,7 +59,6 @@ insert into ship_event_list
     
     
     
-    
 /* орудия ГК */
 insert into ship_guns
     (ship_id, mount_id, amount, date_from, date_to)
