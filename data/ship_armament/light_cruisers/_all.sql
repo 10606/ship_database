@@ -6,4 +6,6 @@
 \i sendai.sql
 \i agano.sql
 \i oyodo.sql
+
+\i katori.sql
 \cd ..
