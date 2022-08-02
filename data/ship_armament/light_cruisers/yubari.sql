@@ -91,7 +91,7 @@ insert into ship_torpedo_tubes
 insert into ship_searchers
     (ship_id, searcher_id, amount, date_from, date_to)
     values
-    (32, 26, 1, '1944-03-04', '1944-04-28'), /* E27 */ /* по данным c 22.03.1943 но он еще в разработке */
+    (32, 26, 1, '1944-03-04', '1944-04-28'), /* E27 */ /* по данным combinedfleet c 22.03.1943 но он еще в разработке */
     (32,  1, 1, '1943-10-16', '1944-04-28'); /* тип 22 */
 
  
