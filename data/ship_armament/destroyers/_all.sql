@@ -1,4 +1,5 @@
 \cd destroyers
+\i shiratsuyu.sql
 \i asashio.sql
 \i kagero.sql
 \i yugumo.sql
