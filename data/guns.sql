@@ -10,7 +10,8 @@ insert into gun_class
     (10, 3,     'подводный торпедный аппарат',      'submerged torpedo tube'),
     (11, 3,     'фиксированный торпедный аппарат',  'fixed torpedo tube'),
     ( 5, null,  'бомбомет',                         'depth charge projector'),
-    (12, 5,     'бомбосбрасыватель',                'depth charge rack'),
+    (12, 5,     'бомбосбрасыватель',                'depth charge projector'),
+    (15, null,  'бомбоскат',                        'depth charge rails'),
     
     ( 4, null,  'глубинные бомбы',                  'depth charge'),
     ( 6, null,  'мина',                             'mine'),
