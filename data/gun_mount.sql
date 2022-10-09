@@ -233,6 +233,7 @@ insert into gun_mount
     values
     (61,  null,                              null,          44, 28, null),
     (63,  null,                              null,          44, 20, null),
-    (65,  null,                              null,          44, 30, null);
+    (65,  null,                              null,          44, 30, null),
+    (66,  null,                              null,          44,  9, null);
 
 

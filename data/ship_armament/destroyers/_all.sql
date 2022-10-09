@@ -1,4 +1,6 @@
 \cd destroyers
+\i minekaze.sql
+\i kamikaze.sql
 \i mutsuki.sql
 \i fubuki.sql
 \i hatsuharu.sql
