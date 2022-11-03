@@ -1,4 +1,5 @@
 \cd destroyers
+\i momi.sql
 \i minekaze.sql
 \i wakatake.sql
 \i kamikaze.sql
