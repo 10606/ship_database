@@ -137,6 +137,7 @@ insert into ship_event_list
     (1, 133, '1944-04-20', '1944-05-02', 'Сасебо');
 
     
+    
 /* орудия ГК */
 insert into ship_guns
     (ship_id, mount_id, amount, date_from, date_to)
