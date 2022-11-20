@@ -18,7 +18,8 @@ insert into ship_list
 insert into ship_list
     (id, class_id, type_id, name_ru, name_en, commissioned, sunk_date, sunk_reason)
     values
-    (62, 4, 25, 'Рюхо',     'Ryuho',        '1942-11-28',  null,  null);
+    (62, 4, 25, 'Рюхо',     'Ryuho',        '1942-11-30',  null,  null); /* в строю с 31.03.1934 как плавбаза подводных лодок Тайгей (Taigei)
+                                                                            с 20.12.1941 по 30.11.1942 перестроен в авианосец */
 
 
 insert into ship_list

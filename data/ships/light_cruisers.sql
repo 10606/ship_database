@@ -54,7 +54,9 @@ insert into ship_list
 insert into ship_list
     (id, class_id, type_id, name_ru, name_en, commissioned, sunk_date, sunk_reason)
     values
-    (34, 9, 12, 'Носиро Мару', 'Noshiro Maru',  '1941-10-14', '1944-09-24', null);
+    (34, 9, 12, 'Носиро Мару', 'Noshiro Maru',  '1941-10-14', '1944-09-24', 'Манила, 14°33'' с.ш. 120°57'' в.д.'); /* в строю с 30.11.1934 как сухогруз,
+                                                                                                                      с 25.06.1941 по 09.08.1941 перестроен как aircraft tender Носирогава Мару (Noshirogawa Maru)
+                                                                                                                      с 19.09.1941 по 14.10.1941 перестроен как вспомогательный крейсер */
 
 
 insert into ship_list
