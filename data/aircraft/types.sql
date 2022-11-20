@@ -12,7 +12,8 @@ insert into aircraft_class
     (7, 2,      'летающая лодка',               'flying boat'),     /* H */
     (8, 1,      'гидросамолет торпедоносец',    'torpedo bomber'),  /* M */
     (9, null,   'транспорт',                    'transport'),       /* L */
-    (10, null,  'реактивный снаряд',            'rocket aircraft');
+    (10, null,  'реактивный снаряд',            'rocket aircraft'),
+    (11, null,  'автожир',                      'autogyro');
 
  
 /* http://www.airwar.ru/enc/fww2/ */
@@ -69,5 +70,7 @@ insert into aircraft_types
     (47, 'реактивный снаряд',               'Yokosuka MXY7 Okha'),
     (48, 'армейский бомбардировщик тип 99', 'Kawasaki Ki-48 Lily'),
     (49, 'гидросамолет разведчик тип 16',   'Aichi E16A Zuiun (Paul)'),
-    (50, 'гидросамолет разедчик тип 90',    'Aichi E3A');
+    (50, 'гидросамолет разедчик тип 90',    'Aichi E3A'),
+    (51, 'автожир Ka-1',                    'Kayaba Ka-1'),
+    (52, 'автожир Ka-2',                    'Kayaba Ka-2');
 

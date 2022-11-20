@@ -26,6 +26,7 @@ insert into gun_class
 insert into gun_list
     (id, name_ru, name_en, caliber, length, class_id, rate_of_fire, effective_range, mass, build_cnt, in_service)
     values
+    (45,'тип 38',       'type 38',       75, 31, 0, 15,      8350,   1135, 3059,    '1905-01-01'),
     (0, 'тип 3',        'type 3',       120, 45, 0, 5.5,    16000,   3240, null,    '1919-01-01'),
     (1, 'тип 3',        'type 3',       127, 50, 0, 7.5,    18400,   4205,  700,    '1928-01-01'),
     (2, 'тип 3',        'type 3',       140, 50, 0, 7.0,    19700,   5650, null,    '1914-01-01'),

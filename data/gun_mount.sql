@@ -55,6 +55,9 @@ insert into thrower__depth_charge
 insert into gun_mount 
     (id, name_ru, name_en, gun_id, gun_count, angle)
     values
+    /* 75mm type 38 */
+    (67,  null,                              null,          45, 1, 43), /*Акицу Мару  Нигицу Мару*/
+    
     /* 120mm type 3 */
     ( 0, '   (с щитом)',                     null,           0, 1, 33), /*Моми Минекадзе Вакатаке Камикадзе Муцуки Симусю Эторофу*/
     
