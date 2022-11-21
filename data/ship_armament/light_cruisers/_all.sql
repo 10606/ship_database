@@ -8,4 +8,6 @@
 \i oyodo.sql
 
 \i katori.sql
+
+\i noshiro_maru.sql
 \cd ..
