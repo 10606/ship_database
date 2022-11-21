@@ -100,7 +100,7 @@ insert into ship_list
 insert into ship_list
     (id, class_id, type_id, name_ru, name_en, commissioned, sunk_date, sunk_reason)
     values
-    (86, 7, 39, 'Ямасиро Мару', 'Yamashiro Maru',   '1945-01-27', '1945-02-17', 'Йокогама'),
+    (86, 7, 39, 'Ямасио Мару',  'Yamashio Maru',    '1945-01-27', '1945-02-17', 'авиацией TF-58, Йокогама'),
     (87, 7, 41, 'Кумано Мару',  'Kumano Maru',      '1945-03-31',  null,         null);
 
 
