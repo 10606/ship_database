@@ -13,7 +13,8 @@ insert into aircraft_class
     (8, 1,      'гидросамолет торпедоносец',    'torpedo bomber'),  /* M */
     (9, null,   'транспорт',                    'transport'),       /* L */
     (10, null,  'реактивный снаряд',            'rocket aircraft'),
-    (11, null,  'автожир',                      'autogyro');
+    (11, null,  'автожир',                      'autogyro'),
+    (12, null,  'учебный',                      'trainer');         /* K */
 
  
 /* http://www.airwar.ru/enc/fww2/ */
@@ -72,5 +73,6 @@ insert into aircraft_types
     (49, 'гидросамолет разведчик тип 16',   'Aichi E16A Zuiun (Paul)'),
     (50, 'гидросамолет разедчик тип 90',    'Aichi E3A'),
     (51, 'автожир Ka-1',                    'Kayaba Ka-1'),
-    (52, 'автожир Ka-2',                    'Kayaba Ka-2');
+    (52, 'автожир Ka-2',                    'Kayaba Ka-2'),
+    (53, 'учебный тип 93',                  'Yokosuka K5Y Willow');
 
