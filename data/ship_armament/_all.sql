@@ -1,6 +1,6 @@
 \cd ship_armament
 \i aircraft_carriers/_all.sql
-\i aircraft_carriers_maru/_all.sql
+\i aircraft_carriers__hydro_maru/_all.sql
 \i battleships/_all.sql
 \i destroyers/_all.sql
 \i heavy_cruisers/_all.sql

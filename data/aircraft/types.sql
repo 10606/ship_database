@@ -14,7 +14,8 @@ insert into aircraft_class
     (9, null,   'транспорт',                    'transport'),       /* L */
     (10, null,  'реактивный снаряд',            'rocket aircraft'),
     (11, null,  'автожир',                      'autogyro'),
-    (12, null,  'учебный',                      'trainer');         /* K */
+    (12, null,  'учебный',                      'trainer'),         /* K */
+    (13, 0,     'гидросамолет истребитель',     'fighter');
 
  
 /* http://www.airwar.ru/enc/fww2/ */
