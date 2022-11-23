@@ -11,7 +11,7 @@ insert into general
      length, width, draft,
      crew, speed_max, speed_cruise, range)
     values
-    (87, '1945-03-31',  null,   8258, 8258,   152.7, 19.58, 7.0,    null, 19, 17, 11000);
+    (87, '1945-03-31',  null,   8258, 10500,   152.7, 19.58, 7.0,    null, 19, 17, 11000);
 
     
     

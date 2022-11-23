@@ -1,5 +1,6 @@
 \cd aircraft_carriers__hydro_maru
 \i chitose.sql
+\i mizuho.sql
 \i akitsu_maru.sql
 \i yamashio_maru.sql
 \i shimane_maru.sql
