@@ -3,6 +3,7 @@
 \i aircraft_carriers__hydro_maru/_all.sql
 \i battleships/_all.sql
 \i destroyers/_all.sql
+\i escort_ship/_all.sql
 \i heavy_cruisers/_all.sql
 \i light_cruisers/_all.sql
 \i submarines/_all.sql
