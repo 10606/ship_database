@@ -4,4 +4,5 @@
 \i shimushu.sql
 \i etorofu.sql
 \i mikura.sql
+\i matsu.sql
 \cd ..

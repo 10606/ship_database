@@ -108,6 +108,7 @@ insert into ship_types
     (55, 'Симусю',      'Shimushu'),
     (56, 'Эторофу',     'Etorofu'),
     (57, 'Мацу',        'Matsu'),
+    (96, 'Татибана',    'Tachibana'),
     (58, 'Микура',      'Mikura'),
     (59, 'Укуру',       'Ukuru'),
     (60, 'Хибури',      'Hiburi');
