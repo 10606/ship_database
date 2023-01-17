@@ -5,4 +5,6 @@
 \i etorofu.sql
 \i mikura.sql
 \i matsu.sql
+\i hiburi.sql
+\i tachibana.sql
 \cd ..
