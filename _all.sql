@@ -1,2 +1,5 @@
-\i tables/_all.sql
-\i data/_all.sql
+\cd tables
+\i _all.sql
+\cd ../data
+\i _all.sql
+\cd ..
