@@ -15,7 +15,9 @@ insert into ship_class
     ( 9, 1, 'вспомогательный крейсер', 'escort cruiser'),
     (10, 1, 'учебный крейсер',      'training cruiser'),
     (11, 5, 'подводный авианосец',  'submarine aircraft carrier'),
-    (12, 5, 'транспортная подводная лодка', 'transport submarine');
+    (12, 5, 'транспортная подводная лодка', 'transport submarine'),
+    
+    (13, null, 'плавучая мастерская', 'repair ship');
 
 
 insert into ship_types
@@ -151,4 +153,11 @@ insert into ship_types
     (87, 'RO-33',   'RO-33'),
     (88, 'RO-100',  'RO-100'),
     (89, 'HA-201',  'HA-201');
+
+
+insert into ship_types
+    (id, name_ru, name_en)
+    values
+    (97, 'Акаси',   'Akashi');
+
 

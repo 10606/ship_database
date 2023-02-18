@@ -7,4 +7,5 @@
 \i heavy_cruisers/_all.sql
 \i light_cruisers/_all.sql
 \i submarines/_all.sql
+\i repair_ships/_all.sql
 \cd ..

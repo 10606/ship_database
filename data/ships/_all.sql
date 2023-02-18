@@ -9,4 +9,5 @@
 \i submarine_carrier.sql
 \i submarines_I.sql
 \i submarines_RO.sql
+\i repair_ships.sql
 \cd ..
