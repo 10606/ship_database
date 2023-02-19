@@ -158,6 +158,7 @@ insert into ship_types
 insert into ship_types
     (id, name_ru, name_en)
     values
-    (97, 'Акаси',   'Akashi');
+    (97, 'Акаси',               'Akashi'),
+    (98, 'ремонтная секция',    'repair section');
 
 
