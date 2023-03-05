@@ -11,3 +11,5 @@
 \i gun_mount.sql
 
 \i ship_armament/_all.sql
+
+\i pictures/_all.sql
