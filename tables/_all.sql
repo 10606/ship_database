@@ -7,6 +7,7 @@
 \i searchers.sql
 \i throwers.sql
 \i torpedo.sql
+\i propulsion.sql
 
 \i ships_armament/aircraft.sql
 \i ships_armament/catapult.sql
