@@ -34,8 +34,9 @@ create table boiling_types
     name_ru varchar(100),
     name_en varchar(100),
     value int not null, /* mask: 1 - coil,  2 - fuel */
-    temperature double precision, /* °C */
-    pressure    double precision, /* atm */
+    temperature     double precision, /* °C */
+    pressure        double precision, /* atm */
+    heating_surface double precision, /* m^2 */
     
     primary key (id)
 );
@@ -55,8 +56,13 @@ create table machine_types
 
 create table steam_turbine
 (
+    rpm     double precision,
+    power   double precision, /* shaft hp */
+    stages  int,
+    
     primary key (id)
 ) inherits(machine_types);
+alter table steam_turbine add check (stages > 0);
 
 create table steam_turbine_reverse
 (
@@ -114,25 +120,73 @@ create table external_burn_machines
     
     primary key (object_id, item_id),
     foreign key (object_id) references external_burn_list(id)
-        on delete restrict on update cascade,
+        on delete restrict on update cascade
+    /* 
+        EMULATED BY TRIGGERS
     foreign key (item_id) references machine_types(id)
         on delete restrict on update cascade
+    */
 );
 alter table external_burn_machines add check (count > 0);
 
 
-/*
-drop table external_burn_machines;
-drop table external_burn_boiling;
-drop table external_burn_list;
-drop table steam_machine_cilinders;
-drop table steam_machine;
-drop table steam_turbine_cruise;
-drop table steam_turbine_reverse;
-drop table steam_turbine;
-drop table machine_types;
-drop table boiling_types;
-drop table diesel_list;
-drop table propulsion;
-*/
+/* emulate foreign key */
+create or replace function external_machines_foreign_key_to_machine_types_em ()
+returns trigger
+    language plpgsql
+as $$
+declare
+begin
+    set transaction isolation level read committed;
+    if (exists
+        (select * from machine_types
+            where (machine_types.id = new.item_id)
+        ))
+    then
+    else
+        raise exception 'ограничение внешнего ключа external_burn_machines.item_id -> machine_types.id';
+    end if;
+    return new;
+end;
+$$;
+
+drop trigger if exists external_machines_foreign_key_to_machine_types_trigger_em on external_burn_machines;
+create trigger external_machines_foreign_key_to_machine_types_trigger_em
+    before insert or update
+    on external_burn_machines
+    for each row
+    execute procedure external_machines_foreign_key_to_machine_types_em();
+
+    
+create or replace function external_machines_foreign_key_to_machine_types_mt ()
+returns trigger
+    language plpgsql
+as $$
+declare
+begin
+    set transaction isolation level read committed;
+    if ((tg_op = 'DELETE' and exists
+        (select * from external_burn_machines
+            where (old.id = external_burn_machines.item_id)
+        ))
+        or (tg_op = 'UPDATE' and exists
+        (select * from external_burn_machines
+            where (old.id = external_burn_machines.item_id and old.id != new.id)
+        )))
+    then
+        raise exception 'ограничение внешнего ключа external_burn_machines.item_id -> machine_types.id';
+    else
+    end if;
+    return new;
+end;
+$$;
+
+drop trigger if exists external_machines_foreign_key_to_machine_types_trigger_mt on machine_types;
+create trigger external_machines_foreign_key_to_machine_types_trigger_mt
+    before delete or update
+    on machine_types
+    for each row
+    execute procedure external_machines_foreign_key_to_machine_types_mt();
+/* foreign key emulated */
+
 

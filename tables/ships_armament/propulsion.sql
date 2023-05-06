@@ -10,12 +10,77 @@ create table ship_propulsion
     
     primary key (ship_id, propulsion_id, date_from),
     foreign key (ship_id) references ship_list(id)
-        on delete restrict on update cascade,
+        on delete restrict on update cascade
+    /* 
+        EMULATED BY TRIGGERS
     foreign key (propulsion_id) references propulsion(id)
         on delete restrict on update cascade
+    */
 );
 alter table ship_propulsion add check (date_from <= date_to);
 alter table ship_propulsion add check (amount > 0);
+
+
+/* emulate foreign key */
+create or replace function ship_propulsion_foreign_key_to_propulsion_sp ()
+returns trigger
+    language plpgsql
+as $$
+declare
+begin
+    set transaction isolation level read committed;
+    if (exists
+        (select * from propulsion
+            where (propulsion.id = new.propulsion_id)
+        ))
+    then
+    else
+        raise exception 'ограничение внешнего ключа ship_propulsion.item_id -> propulsion.id';
+    end if;
+    return new;
+end;
+$$;
+
+drop trigger if exists ship_propulsion_foreign_key_to_propulsion_trigger_sp on ship_propulsion;
+create trigger ship_propulsion_foreign_key_to_propulsion_trigger_sp
+    before insert or update
+    on ship_propulsion
+    for each row
+    execute procedure ship_propulsion_foreign_key_to_propulsion_sp();
+
+    
+create or replace function ship_propulsion_foreign_key_to_propulsion_p ()
+returns trigger
+    language plpgsql
+as $$
+declare
+begin
+    set transaction isolation level read committed;
+    if ((tg_op = 'DELETE' and exists
+        (select * from ship_propulsion
+            where (old.id = ship_propulsion.propulsion_id)
+        ))
+        or (tg_op = 'UPDATE' and exists
+        (select * from ship_propulsion
+            where (old.id = ship_propulsion.propulsion_id and old.id != new.id)
+        )))
+    then
+        raise exception 'ограничение внешнего ключа ship_propulsion.item_id -> propulsion.id';
+    else
+    end if;
+    return new;
+end;
+$$;
+
+drop trigger if exists ship_propulsion_foreign_key_to_propulsion_trigger_p on propulsion;
+create trigger ship_propulsion_foreign_key_to_propulsion_trigger_p
+    before delete or update
+    on propulsion
+    for each row
+    execute procedure ship_propulsion_foreign_key_to_propulsion_p();
+/* foreign key emulated */
+
+    
 
 create or replace function ship_propulsion_check ()
 returns trigger
