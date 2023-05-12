@@ -10,4 +10,6 @@
 \i katori.sql
 
 \i noshiro_maru.sql
+
+\i _propulsion.sql
 \cd ..
