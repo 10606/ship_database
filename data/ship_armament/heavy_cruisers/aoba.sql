@@ -142,7 +142,7 @@ insert into ship_searchers
 insert into ship_catapult
     (ship_id, catapult_id, amount, date_from, date_to)
     values
-    (44,  5, 1, '1929-03-01', '1930-03-01'),
+    (44,  5, 1, '1928-12-31', '1930-03-01'),
     (44,  6, 1, '1930-04-01', '1938-11-20'),
     (44, 10, 1, '1940-10-30', '1945-07-28'),
     

@@ -68,8 +68,8 @@ insert into ship_searchers
 insert into ship_searchers
     (ship_id, searcher_id, amount, date_from, date_to)
     values
-    (33, 30, 3, '1943-02-28', '1944-03-06'),
-    (33, 30, 2, '1944-03-31', '1945-07-28'),
+    (33, 42, 3, '1943-02-28', '1944-03-06'),
+    (33, 42, 2, '1944-03-31', '1945-07-28'),
     (33, 33, 2, '1943-02-28', '1945-07-28');
     
     
@@ -79,7 +79,7 @@ insert into ship_catapult
     (ship_id, catapult_id, amount, date_from, date_to)
     values
     (33, 15, 1, '1943-02-28', '1944-03-06'),
-    (33, 10, 2, '1944-03-31', '1945-07-28');
+    (33, 10, 1, '1944-03-31', '1945-07-28');
     
     
     
