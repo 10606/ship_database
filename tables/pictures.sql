@@ -50,3 +50,16 @@ create table pictures_searcher
         on delete restrict on update cascade
 );
 
+
+create table pictures_catapult
+(
+    catapult_id int not null,
+    path_small text not null,
+    path_full text not null,
+    description text not null,
+    
+    primary key (catapult_id, path_full),
+    foreign key (catapult_id) references searchers(id)
+        on delete restrict on update cascade
+);
+
