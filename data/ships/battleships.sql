@@ -26,7 +26,7 @@ insert into ship_list
     (id, class_id, type_id, name_ru, name_en, commissioned, sunk_date, sunk_reason)
     values
     (8, 0, 3, 'Нагато',     'Nagato',       '1920-11-25',  null,         null),
-    (9, 0, 3, 'Муцу',       'Mutsu',        '1921-11-22', '1943-07-08', 'Хиросимский залив');
+    (9, 0, 3, 'Муцу',       'Mutsu',        '1921-11-22', '1943-06-08', 'Хиросимский залив');
 
 
 insert into ship_list

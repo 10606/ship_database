@@ -24,7 +24,10 @@ insert into steam_turbine
     (36, 'Браун-Кертис низкого давления',           'Brown-Curtis low pressure',         null,  1800,   null, 7),           /* 3* тип Тенрю */
 
     (39, 'Мицубиси-Парсон высокого давления',       'Mitsubishi-Parson high pressure',   null,  3000,   null, null),        /* 3* Юбари, 2* тип Минекадзе */
-    (40, 'Мицубиси-Парсон низкого давления',        'Mitsubishi-Parson low pressure',    null,  2000,   null, null);        /* 3* Юбари, 2* тип Минекадзе  */
+    (40, 'Мицубиси-Парсон низкого давления',        'Mitsubishi-Parson low pressure',    null,  2000,   null, null),        /* 3* Юбари, 2* тип Минекадзе  */
+
+    (43, 'Кампон высокого давления',                'Kampon high pressure',              null,  null,   null, 7), /* 2* тип Катори, Хасидате, Удзи */
+    (44, 'Кампон низкого давления',                 'Kampon low pressure',               null,  null,   null, 4); /* 2* тип Катори, Хасидате, Удзи */
     
     
 /* турбины крейсерского хода */
@@ -52,7 +55,8 @@ insert into steam_turbine_reverse
                                                                              4* Сендай, Нака */
     (34, 'Браун-Кертис',    'Brown-Curtis',      null,  null,   null, 1), /* 4* Оои, Кину, Дзинцу */
     (38, 'Браун-Кертис',    'Brown-Curtis',      null,  null,   null, 1), /* 3* тип Тенрю */
-    (42, 'Мицубиси-Парсон', 'Mitsubishi-Parson', null,  null,   null, 1); /* 3* Юбари, 2* тип Минекадзе */
+    (42, 'Мицубиси-Парсон', 'Mitsubishi-Parson', null,  null,   null, 1), /* 3* Юбари, 2* тип Минекадзе */
+    (45, 'Кампон',          'Kampon',            null,  null,   null, 3); /* 2* тип Катори, Хасидате, Удзи */
     
     
     
@@ -72,7 +76,19 @@ insert into boiling_types
     (14, 'Кампон Ро Го',            'Kampon Ro Go',         3,  156,    18.3, null), /*  2* тип Тенрю */
     
     (15, 'Кампон Ро Го малый',      'Kampon Ro Go small',   2,  156,    18.3, null), /*  2* Юбари */
-    (16, 'Кампон Ро Го большой',    'Kampon Ro Go large',   2,  156,    18.3, null); /*  6* Юбари */
+    (16, 'Кампон Ро Го большой',    'Kampon Ro Go large',   2,  156,    18.3, null), /*  6* Юбари */
+
+    (17, 'Кампон Хо Го',            'Kampon Ho Go',         2,  280,    20,   null); /*  2* тип Катори */
+    
+    
+    
+insert into diesel_list
+    (id, mass, max_power, in_service ,
+        name_ru, name_en,
+        cilinder_diameter, cilinder_stroke, cilinder_count,
+        volume_of_engine, tact_value)
+    values
+    (14, 37960, 2250, null, 'Кампон No 22 модель 10', 'Kampon No 22 model 10', 430, 450, 10, 653, 4); /* 2* тип Катори */
     
     
     
@@ -88,7 +104,8 @@ insert into external_burn_list
     ( 9, null,  90000,  null), /* Кину, Дзинцу */
     (10, null,  90000,  null), /* Оои */
     (11, null,  51000,  null), /* тип Тенрю */
-    (12, null,  61336,  null); /* Юбари */
+    (12, null,  61336,  null), /* Юбари */
+    (13, null,   4000,  null); /* тип Катори */
     
 insert into external_burn_boiling
     (object_id, item_id, count)
@@ -108,7 +125,9 @@ insert into external_burn_boiling
     
     /* Юбари */
     (12, 15,  2),
-    (12, 16,  6);
+    (12, 16,  6),
+    
+    (13, 17,  2); /* тип Катори */
 
 insert into external_burn_machines
     (object_id, item_id, count)
@@ -157,7 +176,12 @@ insert into external_burn_machines
     (12, 39, 3),
     (12, 40, 3),
     (12, 41, 3),
-    (12, 42, 3);
+    (12, 42, 3),
+    
+    /* тип Катори */
+    (13, 43, 2),
+    (13, 44, 2),
+    (13, 45, 2);
   
     
     
@@ -198,6 +222,14 @@ insert into ship_propulsion
     (13, 11, 1, '1919-05-31', '1944-03-13'),
 
     /* Юбари */
-    (32, 12, 1, '1923-07-31', '1944-04-28');
+    (32, 12, 1, '1923-07-31', '1944-04-28'),
+    
+    /* тип Катори */
+    (35, 13, 1, '1940-04-20', '1944-02-17'),
+    (35, 14, 2, '1940-04-20', '1944-02-17'),
+    (36, 13, 1, '1940-05-31',  null       ),
+    (36, 14, 2, '1940-05-31',  null       ),
+    (37, 13, 1, '1941-07-15', '1945-01-12'),
+    (37, 14, 2, '1941-07-15', '1945-01-12');
     
 
