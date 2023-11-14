@@ -25,8 +25,8 @@ insert into ship_list
 insert into ship_list
     (id, class_id, type_id, name_ru, name_en, commissioned, sunk_date, sunk_reason)
     values
-    (63, 4, 26, 'Секаку',   'Shokaku',      '1941-08-08', '1944-06-19', 'у Марианских островов'),
-    (64, 4, 26, 'Дзуйкаку', 'Zuikaku',      '1941-09-25', '1944-10-25', 'залив Лейте');
+    (63, 4, 26, 'Секаку',   'Shokaku',      '1941-08-08', '1944-06-19', 'торпедирован SS-244 Cavalla у Марианских островов'),
+    (64, 4, 26, 'Дзуйкаку', 'Zuikaku',      '1941-09-25', '1944-10-25', 'авиацией, залив Лейте');
 
 
 insert into ship_list
