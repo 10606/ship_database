@@ -21,14 +21,19 @@ insert into steam_turbine
     
     (58, 'Кампон высокого давления',                    'Kampon high pressure',                 null,   null,   null, null), /* 4* тип Секаку */
     (59, 'Кампон среднего давления',                    'Kampon intermediate pressure',         null,   null,   null, null), /* 4* тип Секаку */
-    (60, 'Кампон низкого давления',                     'Kampon low pressure',                  null,   null,   null, null); /* 8* тип Секаку */
+    (60, 'Кампон низкого давления',                     'Kampon low pressure',                  null,   null,   null, null), /* 8* тип Секаку */
+
+    (62, 'Кампон высокого давления',                    'Kampon high pressure',                 null,   null,   null, null), /* 2* тип Дзуйхо, 2* тип Кагеро (кроме Амацукадзе), 2* тип Югумо */
+    (63, 'Кампон среднего давления',                    'Kampon intermediate pressure',         null,   null,   null, null), /* 2* тип Дзуйхо, 2* тип Кагеро (кроме Амацукадзе), 2* тип Югумо */
+    (64, 'Кампон низкого давления',                     'Kampon low pressure',                  null,   null,   null, null); /* 2* тип Дзуйхо, 2* тип Кагеро (кроме Амацукадзе), 2* тип Югумо */
     
     
 /* турбины крейсерского хода */
 insert into steam_turbine_cruise
     (id, name_ru, name_en, in_service, rpm, power, stages)
     values
-    (61, 'Кампон',  'Kampon',   null,   null,   null,   null); /* 4* тип Секаку */
+    (61, 'Кампон',  'Kampon',   null,   null,   null,   null), /* 4* тип Секаку */
+    (65, 'Кампон',  'Kampon',   null,   null,   null,   null); /* 2* тип Дзуйхо, тип Кагеро (кроме Амацукадзе), тип Югумо */
     
     
 /* котлы */
@@ -49,7 +54,9 @@ insert into boiling_types
     (25, 'Кампон Ро Го',            'Kampon Ro Go large',   2,  270,    19.4,   null), /*  4* Рюдзе, тип Фубуки */
     (26, 'Кампон Ро Го малый',      'Kampon Ro Go small',   2,  270,    19.4,   null), /*  2* Рюдзе, тип Фубуки */
     
-    (27, 'Кампон Ро Го',            'Kampon Ro Go large',   2,  352,    30,     null); /*  8* тип Секаку */
+    (27, 'Кампон Ро Го',            'Kampon Ro Go large',   2,  352,    30,     null), /*  8* тип Секаку */
+    
+    (28, 'Кампон Ро Го',            'Kampon Ro Go large',   2,  350,    30,     null); /*  4* тип Дзуйхо, 4* тип Кагеро (кроме Амацукадзе), 4* тип Югумо */
     
     
     
@@ -62,7 +69,8 @@ insert into external_burn_list
     (17,  null,  91000,  null), /* Кага до 1934 */
     (18,  null, 127400,  null), /* Кага после 1936 */
     (19,  null,  66289,  null), /* Рюдзе */
-    (20,  null, 165000,  null); /* тип Секаку */
+    (20,  null, 165000,  null), /* тип Секаку */
+    (21,  null,  52000,  null); /* тип Дзуйхо, тип Кагеро (кроме Амацукадзе), тип Югумо */
     
 insert into external_burn_boiling
     (object_id, item_id, count)
@@ -85,7 +93,10 @@ insert into external_burn_boiling
     (19, 26,  2),
     
     /* тип Секаку */
-    (20, 27,  8);
+    (20, 27,  8),
+    
+    /* тип Дзуйхо, тип Кагеро (кроме Амацукадзе), тип Югумо */
+    (21, 28,  4);
 
 insert into external_burn_machines
     (object_id, item_id, count)
@@ -120,7 +131,13 @@ insert into external_burn_machines
     (20, 58, 4),
     (20, 59, 4),
     (20, 60, 8),
-    (20, 61, 4);
+    (20, 61, 4),
+
+    /* тип Дзуйхо, тип Кагеро (кроме Амацукадзе), тип Югумо */
+    (21, 62, 2),
+    (21, 63, 2),
+    (21, 64, 2),
+    (21, 65, 2);
   
     
     
@@ -144,5 +161,9 @@ insert into ship_propulsion
     
     /* тип Секаку */
     (63, 20, 1,  '1941-08-08', '1944-06-19'),
-    (64, 20, 1,  '1941-09-25', '1944-10-25');
+    (64, 20, 1,  '1941-09-25', '1944-10-25'),
+    
+    /* тип Дзуйхо */
+    (65, 21, 1,  '1940-12-27', '1944-10-25'),
+    (66, 21, 1,  '1941-11-30', '1942-05-07');
 

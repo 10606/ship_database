@@ -33,7 +33,7 @@ insert into ship_list
     (id, class_id, type_id, name_ru, name_en, commissioned, sunk_date, sunk_reason)
     values
     (65, 4, 27, 'Дзуйхо',   'Zuiho',        '1940-12-27', '1944-10-25', 'залив Лейте'),
-    (66, 4, 27, 'Сехо',     'Shoho',        '1942-01-26', '1942-05-07', 'в Коралловом море');
+    (66, 4, 27, 'Сехо',     'Shoho',        '1941-11-30', '1942-05-07', 'в Коралловом море');
 
 
 insert into ship_list
