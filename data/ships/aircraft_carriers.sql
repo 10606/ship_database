@@ -53,7 +53,7 @@ insert into ship_list
 insert into ship_list
     (id, class_id, type_id, name_ru, name_en, commissioned, sunk_date, sunk_reason)
     values
-    (71, 4, 30, 'Унрю',     'Unryu',        '1944-08-06', '1944-12-19', '29°35'' с.ш. 134°02'' в.д.'),
+    (71, 4, 30, 'Унрю',     'Unryu',        '1944-08-06', '1944-12-19', 'торпедирован SS-395 Redfish 29°35'' с.ш. 134°02'' в.д.'),
     (72, 4, 30, 'Амаги',    'Amagi',        '1944-08-10', '1945-07-28', 'Куре'),
     (73, 4, 30, 'Кацураги', 'Katsuragi',    '1944-10-15',  null,         null);
 
