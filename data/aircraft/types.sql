@@ -75,5 +75,6 @@ insert into aircraft_types
     (50, 'гидросамолет разедчик тип 90',    'Aichi E3A'),
     (51, 'автожир Ka-1',                    'Kayaba Ka-1'),
     (52, 'автожир Ka-2',                    'Kayaba Ka-2'),
-    (53, 'учебный тип 93',                  'Yokosuka K5Y Willow');
+    (53, 'учебный тип 93',                  'Yokosuka K5Y Willow'),
+    (54, 'летающая лодка тип 2',            'Kawanishi H8K');
 
