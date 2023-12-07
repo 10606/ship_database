@@ -43,6 +43,8 @@ insert into ship_catapult
 insert into ship_aircraft
     (ship_id, aircraft_id, amount, amount_reserve, date_from, date_to)
     values
-    (82, 37, 11, 1, '1942-02-27', '1943-07-22'); /* F1M */
+    /* неточные данные, по проекту должен иметь 12 F1M, но на картинках в 1942 видно 2 E13A и один F1M */
+    (82, 11,  2, 0, '1942-02-27', '1943-07-22'), /* E13A */
+    (82, 37,  1, 0, '1942-02-27', '1943-07-22'); /* F1M */
     /* 12 минисубмарин типа A */
 

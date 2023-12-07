@@ -88,7 +88,7 @@ insert into diesel_list
         cilinder_diameter, cilinder_stroke, cilinder_count,
         volume_of_engine, tact_value)
     values
-    (14, 37960, 2250, null, 'Кампон No 22 модель 10', 'Kampon No 22 model 10', 430, 450, 10, 653, 4); /* 2* тип Катори */
+    (14, 37960, 2250, null, 'Кампон No 22 модель 10', 'Kampon No 22 model 10', 430, 450, 10, 653, 4); /* 2* тип Катори, 4* Акицусима */
     
     
     
