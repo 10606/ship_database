@@ -1,27 +1,3 @@
-
-/* турбины */
-insert into steam_turbine
-    (id, name_ru, name_en, in_service, rpm, power, stages)
-    values
-    (77, 'Кампон высокого давления',    'Kampon high pressure', null,   null,   null, null), /* 2* тип Титосе */
-    (78, 'Кампон низкого давления',     'Kampon low pressure',  null,   null,   null, null); /* 2* тип Титосе */
-    
-    
-/* турбины крейсерского хода */
-insert into steam_turbine_cruise
-    (id, name_ru, name_en, in_service, rpm, power, stages)
-    values
-    (79, 'Кампон',  'Kampon',   null,  null,    3000, null); /* 2* тип Титосе */
-    
- 
-    
-/* котлы */
-insert into boiling_types
-    (id, name_ru, name_en, value, temperature, pressure, heating_surface)
-    values
-    (31, 'Кампон Ро Го',    'Kampon Ro Go',     2,  280, 22, null); /* 4* тип Титосе */
-    
-    
     
 /* силовая установка */
 insert into external_burn_list
@@ -41,21 +17,6 @@ insert into external_burn_machines
     (24, 77, 2),
     (24, 78, 2),
     (24, 79, 2);
-  
-    
-    
-/* дизеля */
-insert into diesel_list
-    (id, mass, max_power, in_service ,
-        name_ru, name_en,
-        cilinder_diameter, cilinder_stroke, cilinder_count,
-        volume_of_engine, tact_value)
-    values
-    (25,   null, 6400, null, 'Кампон No 11 модель 10',    'Kampon No 11 model 10', null, null, 10,  null, 2), /* 2* тип Титосе */
-    (26,   null, 3800, null, 'Кампон No 11 модель 8',     'Kampon No 11 model 8',  null, null,  8,  null, 2), /* 4* Мидзухо */
-    (27, 120000, 9600, null, 'Кампон No 13 модель 12',    'Kampon No 13 model 12',  480,  600, 12,  1303, 2), /* 2* Ниссин */
-    (28, 104000, 7600, null, 'Кампон No 13 модель 10',    'Kampon No 13 model 10',  480,  600, 10,  1086, 2), /* 4* Ниссин */
-    (29,   null, 1900, null, 'Кампон No 13 модель 6',     'Kampon No 13 model 6',   420,  520,  6, 432.3, 2); /* 2* Ниссин (компрессор для Кампон No 13 модель 12) */
     
     
     

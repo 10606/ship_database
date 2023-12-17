@@ -9,6 +9,9 @@
 \i throwers.sql
 \i torpedo.sql
 \i gun_mount.sql
+\i boilers.sql
+\i turbines.sql
+\i deisels.sql
 
 \i ship_armament/_all.sql
 
