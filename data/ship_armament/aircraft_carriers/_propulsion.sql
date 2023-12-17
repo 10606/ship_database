@@ -3,37 +3,39 @@
 insert into steam_turbine
     (id, name_ru, name_en, in_service, rpm, power, stages)
     values
-    (46, 'Гидзицу-Хонбу высокого давления',             'Gijitsu-Honbu high pressure',          null,   null,   null, null), /* 8* Акаги до 1938 */
-    (47, 'Гидзицу-Хонбу среднего давления',             'Gijitsu-Honbu intermediate pressure',  null,   null,   null, null), /* 4* Акаги до 1938 */
-    (48, 'Гидзицу-Хонбу низкого давления',              'Gijitsu-Honbu low pressure',           null,   null,   null, null), /* 8* Акаги до 1938 */
+    (46, 'Гидзицу-Хонбу высокого давления',             'Gijitsu-Honbu high pressure',          null,   null,   null,   null), /* 8* Акаги до 1938 */
+    (47, 'Гидзицу-Хонбу среднего давления',             'Gijitsu-Honbu intermediate pressure',  null,   null,   null,   null), /* 4* Акаги до 1938 */
+    (48, 'Гидзицу-Хонбу низкого давления',              'Gijitsu-Honbu low pressure',           null,   null,   null,   null), /* 8* Акаги до 1938 */
     
-    (49, 'Кампон высокого давления',                    'Kampon high pressure',                 null,   null,   null, null), /* 8* Акаги после 1938 */
-    (50, 'Кампон среднего давления',                    'Kampon intermediate pressure',         null,   null,   null, null), /* 4* Акаги после 1938 */
-    (51, 'Кампон низкого давления',                     'Kampon low pressure',                  null,   null,   null, null), /* 4* Акаги после 1938 */
+    (49, 'Кампон высокого давления',                    'Kampon high pressure',                 null,   null,   null,   null), /* 8* Акаги после 1938 */
+    (50, 'Кампон среднего давления',                    'Kampon intermediate pressure',         null,   null,   null,   null), /* 4* Акаги после 1938 */
+    (51, 'Кампон низкого давления',                     'Kampon low pressure',                  null,   null,   null,   null), /* 4* Акаги после 1938 */
     
-    (52, 'Браун-Кертис высокого давления',              'Brown-Curtis high pressure',           null,   null,   null, null), /* 4* Кага до 1934 */
-    (53, 'Браун-Кертис среднего давления',              'Brown-Curtis intermediate pressure',   null,   null,   null, null), /* 4* Кага до 1934 */
-    (54, 'Браун-Кертис низкого давления',               'Brown-Curtis low pressure',            null,   null,   null, null), /* 8* Кага до 1934 */
+    (52, 'Браун-Кертис высокого давления',              'Brown-Curtis high pressure',           null,   null,   null,   null), /* 4* Кага до 1934 */
+    (53, 'Браун-Кертис среднего давления',              'Brown-Curtis intermediate pressure',   null,   null,   null,   null), /* 4* Кага до 1934 */
+    (54, 'Браун-Кертис низкого давления',               'Brown-Curtis low pressure',            null,   null,   null,   null), /* 8* Кага до 1934 */
     
-    (55, 'Кампон высокого давления',                    'Kampon high pressure',                 null,   null,   null, null), /* 8* Кага после 1936 */
-    (56, 'Кампон среднего давления',                    'Kampon intermediate pressure',         null,   null,   null, null), /* 4* Кага после 1936 */
-    (57, 'Кампон низкого давления',                     'Kampon low pressure',                  null,   null,   null, null), /* 4* Кага после 1936 */
+    (55, 'Кампон высокого давления',                    'Kampon high pressure',                 null,   null,   null,   null), /* 8* Кага после 1936 */
+    (56, 'Кампон среднего давления',                    'Kampon intermediate pressure',         null,   null,   null,   null), /* 4* Кага после 1936 */
+    (57, 'Кампон низкого давления',                     'Kampon low pressure',                  null,   null,   null,   null), /* 4* Кага после 1936 */
     
-    (58, 'Кампон высокого давления',                    'Kampon high pressure',                 null,   null,   null, null), /* 4* тип Секаку, 4* Тайхо */
-    (59, 'Кампон среднего давления',                    'Kampon intermediate pressure',         null,   null,   null, null), /* 4* тип Секаку, 4* Тайхо */
-    (60, 'Кампон низкого давления',                     'Kampon low pressure',                  null,   null,   null, null), /* 8* тип Секаку, 8* Тайхо */
+    (58, 'Кампон высокого давления',                    'Kampon high pressure',                 null,   null,   null,   null), /* 4* тип Секаку, 4* Тайхо */
+    (59, 'Кампон среднего давления',                    'Kampon intermediate pressure',         null,   null,   null,   null), /* 4* тип Секаку, 4* Тайхо */
+    (60, 'Кампон низкого давления',                     'Kampon low pressure',                  null,   null,   null,   null), /* 8* тип Секаку, 8* Тайхо */
 
-    (62, 'Кампон высокого давления',                    'Kampon high pressure',                 null,   null,   null, null), /* 2* тип Дзуйхо, 2* Рюхо, 2* тип Кагеро (кроме Амацукадзе), 2* тип Югумо */
-    (63, 'Кампон среднего давления',                    'Kampon intermediate pressure',         null,   null,   null, null), /* 2* тип Дзуйхо, 2* Рюхо, 2* тип Кагеро (кроме Амацукадзе), 2* тип Югумо */
-    (64, 'Кампон низкого давления',                     'Kampon low pressure',                  null,   null,   null, null), /* 2* тип Дзуйхо, 2* Рюхо, 2* тип Кагеро (кроме Амацукадзе), 2* тип Югумо */
+    (62, 'Кампон высокого давления',                    'Kampon high pressure',                 null,   null,   null,   null), /* 2* тип Дзуйхо, 2* Рюхо, 2* тип Кагеро (кроме Амацукадзе), 2* тип Югумо */
+    (63, 'Кампон среднего давления',                    'Kampon intermediate pressure',         null,   null,   null,   null), /* 2* тип Дзуйхо, 2* Рюхо, 2* тип Кагеро (кроме Амацукадзе), 2* тип Югумо */
+    (64, 'Кампон низкого давления',                     'Kampon low pressure',                  null,   null,   null,   null), /* 2* тип Дзуйхо, 2* Рюхо, 2* тип Кагеро (кроме Амацукадзе), 2* тип Югумо */
     
-    (66, 'Кампон высокого давления',                    'Kampon high pressure',                 null,   null,   null, null), /* 4* Унрю, 4* Амаги */
-    (67, 'Кампон среднего давления',                    'Kampon intermediate pressure',         null,   null,   null, null), /* 4* Унрю, 4* Амаги */
-    (68, 'Кампон низкого давления',                     'Kampon low pressure',                  null,   null,   null, null), /* 4* Унрю, 4* Амаги */
+    (66, 'Кампон высокого давления',                    'Kampon high pressure',                 null,   null,   null,   null), /* 4* Унрю, 4* Амаги */
+    (67, 'Кампон среднего давления',                    'Kampon intermediate pressure',         null,   null,   null,   null), /* 4* Унрю, 4* Амаги */
+    (68, 'Кампон низкого давления',                     'Kampon low pressure',                  null,   null,   null,   null), /* 4* Унрю, 4* Амаги */
     
-    (71, 'Кампон высокого давления',                    'Kampon high pressure',                 null,   null,   null, null), /* 2* тип Кагеро, 2* тип Югумо, 4* Кацураги, 2* Кайе */
-    (72, 'Кампон среднего давления',                    'Kampon intermediate pressure',         null,   null,   null, null), /* 2* тип Кагеро, 2* тип Югумо, 4* Кацураги, 2* Кайе */
-    (73, 'Кампон низкого давления',                     'Kampon low pressure',                  null,   null,   null, null); /* 2* тип Кагеро, 2* тип Югумо, 4* Кацураги, 2* Кайе */
+    (71, 'Кампон высокого давления',                    'Kampon high pressure',                 null,   null,   null,   null), /* 2* тип Кагеро, 2* тип Югумо, 4* Кацураги, 2* Кайе */
+    (72, 'Кампон среднего давления',                    'Kampon intermediate pressure',         null,   null,   null,   null), /* 2* тип Кагеро, 2* тип Югумо, 4* Кацураги, 2* Кайе */
+    (73, 'Кампон низкого давления',                     'Kampon low pressure',                  null,   null,   null,   null), /* 2* тип Кагеро, 2* тип Югумо, 4* Кацураги, 2* Кайе */
+
+    (80, 'A.E.G.',                                      'A.E.G',                                null,   null,   13000,  null); /* 2* Синье */
     
     
 /* турбины крейсерского хода */
@@ -75,11 +77,13 @@ insert into boiling_types
     
     (27, 'Кампон Ро Го',                'Kampon Ro Go large',           2,  352,    30,     null), /*  8* тип Секаку, 8* Тайхо */
     
-    (28, 'Кампон Ро Го',                'Kampon Ro Go large',           2,  350,    30,     null), /*  4* тип Дзуйхо, 4* Рюхо, 4* тип Кагеро (кроме Амацукадзе), 4* тип Югумо */
+    (28, 'Кампон Ро Го',                'Kampon Ro Go large',           2,  350,    30,     null), /*  4* тип Дзуйхо, 4* Рюхо, 3* тип Кагеро (кроме Амацукадзе), 3* тип Югумо */
 
     (29, 'Кампон Ро Го',                'Kampon Ro Go large',           2,  300,    22,     null), /*  4* Кайе, 8* Унрю, 8* Амаги */
     (30, 'Кампон Ро Го',                'Kampon Ro Go large',           2,  350,    30,     null), /*  3* тип Кагеро, 3* тип Югумо, 8* Кацураги */
-    (32, 'Кампон Ро Го No 38 мод 17',   'Kampon Ro Go No 38 mod 17',    2,  350,    30,     null); /*  3* тип Акидзуки */
+    (32, 'Кампон Ро Го No 38 мод 17',   'Kampon Ro Go No 38 mod 17',    2,  350,    30,     null), /*  3* тип Акидзуки */
+    
+    (33, 'Schichau',                    'Schichau',                     2,  400,    32,     null); /*  4* Синье */
     
     
     
@@ -96,7 +100,8 @@ insert into external_burn_list
     (21,  null,  52000,  null), /* тип Дзуйхо, Рюхо, тип Кагеро (кроме Амацукадзе), тип Югумо */
     (22,  null, 152000,  null), /* Унрю, Амаги */
     (23,  null, 104000,  null), /* Кацураги */
-    (30,  null,  52000,  null); /* Кайе */
+    (30,  null,  52000,  null), /* Кайе */
+    (31,  null,  26000,  null); /* Синье */
     
 insert into external_burn_boiling
     (object_id, item_id, count)
@@ -131,7 +136,10 @@ insert into external_burn_boiling
     (23, 30,  8),
     
     /* Кайе */
-    (30, 29,  4);
+    (30, 29,  4),
+    
+    /* Синье */
+    (31, 33,  2);
 
 insert into external_burn_machines
     (object_id, item_id, count)
@@ -195,7 +203,10 @@ insert into external_burn_machines
     (30, 73, 2),
     (30, 74, 2),
     (30, 75, 2),
-    (30, 76, 2);
+    (30, 76, 2),
+    
+    /* Синье */
+    (31, 80, 2);
   
     
     
@@ -237,5 +248,8 @@ insert into ship_propulsion
     (73, 23, 1, '1944-10-15',  null),
     
     /* Кайе */
-    (77, 30, 1, '1943-11-23', '1945-07-28');
+    (77, 30, 1, '1943-11-23', '1945-07-28'),
+
+    /* Синье */
+    (78, 31, 1, '1943-11-15', '1944-11-17');
 
