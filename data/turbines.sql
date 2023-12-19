@@ -76,7 +76,10 @@ insert into steam_turbine
     (77, 'Кампон высокого давления',                    'Kampon high pressure',                 null,   null,   null,   null), /* 2* тип Титосе */
     (78, 'Кампон низкого давления',                     'Kampon low pressure',                  null,   null,   null,   null), /* 2* тип Титосе */
 
-    (80, 'A.E.G.',                                      'A.E.G',                                null,   null,  13000,   null); /* 2* Синье */
+    (80, 'A.E.G.',                                      'A.E.G',                                null,   null,  13000,   null), /* 2* Синье */
+    
+    (81, 'Парсон высокого давления',                    'Parson high pressure',                 null,   null,   null,   null), /* 2* Хосе */
+    (82, 'Парсон низкого давления',                     'Parson low pressure',                  null,   null,   null,   null); /* 2* Хосе */
     
     
 /* турбины крейсерского хода */

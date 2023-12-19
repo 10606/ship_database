@@ -50,6 +50,9 @@ insert into boiling_types
     
     (33, 'Schichau',                    'Schichau',                     2,  400,      32,   null), /*  4* Синье */
 
-    (34, 'Кампон Ро Го',                'Kampon Ro Go large',           2,  350,      25,   null); /*  4* тип Тайе */
+    (34, 'Кампон Ро Го',                'Kampon Ro Go large',           2,  350,      25,   null), /*  4* тип Тайе */
+    
+    (35, 'Кампон Ро Го',                'Kampon Ro Go',                 1,  138,    18.3,   null), /*  4* Хосе */
+    (36, 'Кампон Ро Го',                'Kampon Ro Go',                 3,  138,    18.3,   null); /*  4* Хосе */
     
     
