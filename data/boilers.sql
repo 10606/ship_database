@@ -53,6 +53,9 @@ insert into boiling_types
     (34, 'Кампон Ро Го',                'Kampon Ro Go large',           2,  350,      25,   null), /*  4* тип Тайе */
     
     (35, 'Кампон Ро Го',                'Kampon Ro Go',                 1,  138,    18.3,   null), /*  4* Хосе */
-    (36, 'Кампон Ро Го',                'Kampon Ro Go',                 3,  138,    18.3,   null); /*  4* Хосе */
+    (36, 'Кампон Ро Го',                'Kampon Ro Go',                 3,  138,    18.3,   null), /*  4* Хосе */
+    
+    (37, 'Мицубиси',                    'Mitsubishi',                   2,  420,      40,   null), /*  6* Дзюнье */
+    (38, 'Кавасаки-LaMont',             'Kawasaki-LaMont',              2,  420,      40,   null); /*  6* Хие */
     
     
