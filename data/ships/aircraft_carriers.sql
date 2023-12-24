@@ -47,7 +47,7 @@ insert into ship_list
     (id, class_id, type_id, name_ru, name_en, commissioned, sunk_date, sunk_reason)
     values
     (69, 4, 29, 'Тайхо',    'Taiho',        '1944-03-07', '1944-06-19', 'в Филиппинском море'),
-    (70, 4,  4, 'Синано',   'Shinano',      '1944-11-19', '1944-11-29', 'у мыса Мурото');
+    (70, 4,  4, 'Синано',   'Shinano',      '1944-11-19', '1944-11-29', 'торпедирован SS-311 Archerfish у мыса Мурото, 33°07'' с.ш. 137°04'' в.д.');
 
 
 insert into ship_list
