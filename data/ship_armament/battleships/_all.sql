@@ -4,4 +4,6 @@
 \i ise.sql
 \i nagato.sql
 \i yamato.sql
+
+\i _propulsion.sql
 \cd ..

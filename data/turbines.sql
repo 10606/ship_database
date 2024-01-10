@@ -69,9 +69,9 @@ insert into steam_turbine
     (67, 'Кампон среднего давления',                    'Kampon intermediate pressure',             null,   null,   null,   null), /* 4* Унрю, 4* Амаги */
     (68, 'Кампон низкого давления',                     'Kampon low pressure',                      null,   null,   null,   null), /* 4* Унрю, 4* Амаги */
     
-    (71, 'Кампон высокого давления',                    'Kampon high pressure',                     null,   null,   null,   null), /* 2* тип Кагеро, 2* тип Югумо, 2* тип Акидзуки, 2* тип Дзуйхо, 2* Рюхо, 4* Кацураги, 2* Кайе, */
-    (72, 'Кампон среднего давления',                    'Kampon intermediate pressure',             null,   null,   null,   null), /* 2* тип Кагеро, 2* тип Югумо, 2* тип Акидзуки, 2* тип Дзуйхо, 2* Рюхо, 4* Кацураги, 2* Кайе, */
-    (73, 'Кампон низкого давления',                     'Kampon low pressure',                      null,   null,   null,   null), /* 2* тип Кагеро, 2* тип Югумо, 2* тип Акидзуки, 2* тип Дзуйхо, 2* Рюхо, 4* Кацураги, 2* Кайе, */
+    (71, 'Кампон высокого давления',                    'Kampon high pressure',                     null,   null,   null,   null), /* 2* тип Кагеро, 2* тип Югумо, 2* тип Акидзуки, 2* тип Дзуйхо, 2* Рюхо, 4* Кацураги, 2* Кайе */
+    (72, 'Кампон среднего давления',                    'Kampon intermediate pressure',             null,   null,   null,   null), /* 2* тип Кагеро, 2* тип Югумо, 2* тип Акидзуки, 2* тип Дзуйхо, 2* Рюхо, 4* Кацураги, 2* Кайе */
+    (73, 'Кампон низкого давления',                     'Kampon low pressure',                      null,   null,   null,   null), /* 2* тип Кагеро, 2* тип Югумо, 2* тип Акидзуки, 2* тип Дзуйхо, 2* Рюхо, 4* Кацураги, 2* Кайе */
 
     (77, 'Кампон высокого давления',                    'Kampon high pressure',                     null,   null,   null,   null), /* 2* тип Титосе */
     (78, 'Кампон низкого давления',                     'Kampon low pressure',                      null,   null,   null,   null), /* 2* тип Титосе */
@@ -83,7 +83,12 @@ insert into steam_turbine
     
     (83, 'Мицубиси-Кертис высокого давления',           'Mitsubishi-Curtis high pressure',          null,   null,   null,   null), /* 2* тип Дзюнье */
     (84, 'Мицубиси-Кертис среднего давления',           'Mitsubishi-Curtis intermediate pressure',  null,   null,   null,   null), /* 2* тип Дзюнье */
-    (85, 'Мицубиси-Кертис низкого давления',            'Mitsubishi-Curtis low pressure',           null,   null,   null,   null); /* 4* тип Дзюнье */
+    (85, 'Мицубиси-Кертис низкого давления',            'Mitsubishi-Curtis low pressure',           null,   null,   null,   null), /* 4* тип Дзюнье */
+    
+    
+    (86, 'Кампон высокого давления',                    'Kampon high pressure',                     null,   null,   null,   null), /* 4* тип Ямато */
+    (87, 'Кампон среднего давления',                    'Kampon intermediate pressure',             null,   null,   null,   null), /* 4* тип Ямато */
+    (88, 'Кампон низкого давления',                     'Kampon low pressure',                      null,   null,   null,   null); /* 4* тип Ямато */
     
     
 /* турбины крейсерского хода */
@@ -109,7 +114,10 @@ insert into steam_turbine_cruise
     (69, 'Кампон',                      'Kampon',                   null,   null,   null,   null), /* 2* Унрю, 2* Амаги */
     (74, 'Кампон высокого давления',    'Kampon high pressure',     null,   null,   null,   null), /* 2* тип Кагеро, 2* тип Югумо, 2* тип Акидзуки, 2* тип Дзуйхо, 2* Рюхо, 2* Кацураги, 2* Кайе */
     (75, 'Кампон низкого давления',     'Kampon low pressure',      null,   null,   null,   null), /* 2* тип Кагеро, 2* тип Югумо, 2* тип Акидзуки, 2* тип Дзуйхо, 2* Рюхо, 2* Кацураги, 2* Кайе */
-    (79, 'Кампон',                      'Kampon',                   null,   null,   3000,   null); /* 2* тип Титосе */
+    (79, 'Кампон',                      'Kampon',                   null,   null,   3000,   null), /* 2* тип Титосе */
+
+    
+    (89, 'Кампон',                      'Kampon',                   null,   null,   4500,   null); /* 4* тип Ямато */
     
     
 /* турбины заднего хода */

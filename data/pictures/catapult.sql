@@ -136,6 +136,8 @@ insert into pictures_catapult
     (catapult_id, path_small, path_full, description)
     values
     /* тип 1 No 2 мод 11 */
+    (11, 'type_1_No_2_mod_11/Musashi_1942.jpg',                             'type_1_No_2_mod_11/Musashi_1942.jpg',                          'пара катапульт тип 1 No 2 мод 11 на линкоре Мусаси, 1942 год'),
+    (11, 'type_1_No_2_mod_11/Musashi__127mm_type_89_mod_A3.jpg',            'type_1_No_2_mod_11/Musashi__127mm_type_89_mod_A3.jpg',         'линкор Мусаси, в правом верхнем углу видна катапульта тип 1 No 2 мод 11'),
     (11, 'type_1_No_2_mod_11/Agano_01.1943_Truk.jpg',                       'type_1_No_2_mod_11/Agano_01.1943_Truk.jpg',                    'тип 1 No 2 мод 11 на легком крейсере Агано, январь 1943, Трук'),
     (11, 'type_1_No_2_mod_11/Noshiro_06.1943_Tokyo_Bay_trial.jpg',          'type_1_No_2_mod_11/Noshiro_06.1943_Tokyo_Bay_trial.jpg',       'тип 1 No 2 мод 11 на легком крейсере Носиро, испытания в Токийском заливе, июнь 1943');
 

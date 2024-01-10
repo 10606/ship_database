@@ -1,10 +1,13 @@
 insert into pictures_searcher
     (searcher_id, path_small, path_full, description)
     values
-    ( 0, 'radar/type21.jpg',                                    'radar/type21.jpg',                                     'РЛС тип 21'),
-    ( 0, 'radar/Yamato.jpg',                                    'radar/Yamato.jpg',                                     'линкор Ямато, антенны РЛС тип 21 на дальномере'),
-    ( 0, 'radar/Bridge_of_IJN_CV_ZUIKAKU_with_21-GO_rader.jpg', 'radar/Bridge_of_IJN_CV_ZUIKAKU_with_21-GO_rader.jpg',  'РЛС тип 21 на авианосце Дзуйкаку'),
-    ( 0, 'radar/Fuyutsuki_05.44.png',                           'radar/Fuyutsuki_05.44.png',                            'РЛС тип 21 на эсминце Фуюдзуки'),
+    ( 0, 'radar/type_21_Junyo_.jpg',                            'radar/type_21_Junyo.jpg',                              'РЛС тип 21 на авианосце Дзюнье после войны'),
+    ( 0, 'radar/type_21_Musashi.jpg',                           'radar/type_21_Musashi.jpg',                            'линкор Мусаси, антенны РЛС тип 21 на дальномере'),
+    ( 0, 'radar/type_21_Musashi_.jpg',                          'radar/type_21_Musashi_.jpg',                           'РЛС тип 21 на линкоре Мусаси'),
+    ( 0, 'radar/type_21_Musashi.jpeg',                          'radar/type_21_Musashi.jpeg',                           'линкор Мусаси, РЛС тип 21'),
+    ( 0, 'radar/type_21_yamato.jpeg',                           'radar/type_21_yamato.jpeg',                            'антенна РЛС тип 21 на линкоре типа Ямато'),
+    ( 0, 'radar/type_21_Zuikaku.jpg',                           'radar/type_21_Zuikaku.jpg',                            'РЛС тип 21 на авианосце Дзуйкаку'),
+    ( 0, 'radar/type_21_Fuyutsuki_05.44.png',                   'radar/type_21_Fuyutsuki_05.44.png',                    'РЛС тип 21 на эсминце Фуюдзуки'),
     
     ( 1, 'radar/type22-1.jpg',                                  'radar/type22-1.jpg',                                   'РЛС тип 22, верхняя антенна передатчика, нижняя приемника'),
     ( 1, 'radar/type_22_nagato.jpg',                            'radar/type_22_nagato.jpg',                             'линкор Нагато, РЛС тип 22'),
@@ -14,7 +17,7 @@ insert into pictures_searcher
     ( 2, 'radar/Akizuki_searcher_type_13.png',                  'radar/Akizuki_searcher_type_13.png',                   'РЛС тип 13 на эсминце Акидзуки'),
     ( 2, 'radar/type13.jpg',                                    'radar/type13.jpg',                                     'РЛС тип 13, направленная антенна Уда-Яги'),
     ( 2, 'radar/Harutsuki.png',                                 'radar/Harutsuki.png',                                  'эсминец Харуцуки имел 2 РЛС тип 13 и 1 РЛС тип 22'),
-    ( 2, 'radar/type13_tx_left__rx_right.jpg',                  'radar/type13_tx_left__rx_right.jpg',                   'РЛС тип 13, слева передатчик, справа приемник'),
+    ( 2, 'radar/type13_tx_left__rx_right.jpg',                  'radar/type13_tx_left__rx_right.jpg',                   'РЛС тип 13, слева передатчик и блок питания, справа приемник'),
     ( 2, 'radar/type_13_power_supply.png',                      'radar/type_13_power_supply.png',                       'РЛС тип 13, блок питания'),
     ( 2, 'radar/type_13_tx.png',                                'radar/type_13_tx.png',                                 'РЛС тип 13, передатчик'),
     
