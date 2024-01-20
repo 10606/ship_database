@@ -157,7 +157,7 @@ insert into pictures_ship
     (49, 'heavy_cruisers/myoko/Myoko_propulsion_scheme.png',                            'heavy_cruisers/myoko/Myoko_propulsion_scheme.png',                     'схема силовой установки крейсеров типа Меко'),
     (49, 'heavy_cruisers/myoko/Myoko_machines_scheme.png',                              'heavy_cruisers/myoko/Myoko_machines_scheme.png',                       'схема машинного отделения (переднего правого) крейсеров типа Меко'),
 
-    (49, 'heavy_cruisers/myoko/haguro/Haguro_04.1936.jpeg',                             'heavy_cruisers/myoko/haguro/Haguro_04.1936.jpeg',                      'Хагуро в апреле 1936'),
+    (49, 'heavy_cruisers/myoko/haguro/Haguro_04.1936.jpeg',                             'heavy_cruisers/myoko/haguro/Haguro_04.1936.jpeg',                      'E8N принадлежащий крейсеру Нати и крейсер Хагуро в апреле 1936'),
     (49, 'heavy_cruisers/myoko/haguro/Haguro_30.04.1936.png',                           'heavy_cruisers/myoko/haguro/Haguro_30.04.1936.png',                    'Хагуро 30 апреля 1936'),
     (49, 'heavy_cruisers/myoko/haguro/Haguro_30.04.1936_0.jpg',                         'heavy_cruisers/myoko/haguro/Haguro_30.04.1936_.png',                   'Хагуро 30.04.1936'),
     (49, 'heavy_cruisers/myoko/haguro/Haguro_30.04.1936_1.png',                         'heavy_cruisers/myoko/haguro/Haguro_30.04.1936_1.png',                  'тяжелый крейсер Хагуро 30.04.1936'),
