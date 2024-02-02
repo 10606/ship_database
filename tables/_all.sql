@@ -18,6 +18,7 @@
 \i ships_armament/propulsion.sql
 
 \i pictures.sql
+\i documents.sql
 
 \i views.sql
 \i requests.sql

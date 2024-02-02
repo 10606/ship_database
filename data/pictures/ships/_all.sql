@@ -7,7 +7,7 @@
 \i light_cruisers/_all.sql
 \i destroyers/_all.sql
 
-select ship_list.id, ship_list.name_en, pic_cnt.cnt 
+select ship_list.id, ship_class.name_en as class, ship_list.name_en as name, pic_cnt.cnt as pictures
     from ship_list
     inner join 
     (
@@ -17,7 +17,9 @@ select ship_list.id, ship_list.name_en, pic_cnt.cnt
             order by cnt desc 
             limit 10
     ) as pic_cnt 
-    on ship_list.id = pic_cnt.ship_id 
+    on ship_list.id = pic_cnt.ship_id
+    inner join ship_class
+    on ship_class.id = ship_list.class_id
     order by pic_cnt.cnt desc;
 
 \cd ..
