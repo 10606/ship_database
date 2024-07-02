@@ -16,3 +16,4 @@
 \i ship_armament/_all.sql
 
 \i pictures/_all.sql
+\i documents.sql

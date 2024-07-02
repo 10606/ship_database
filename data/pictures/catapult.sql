@@ -121,7 +121,7 @@ insert into pictures_catapult
     (10, 'Kure_No_2_mod_5/Ashigara_E13A_05.1943_Java.jpg',                  'Kure_No_2_mod_5/Ashigara_E13A_05.1943_Java.jpg',               'запуск E13A с катапульты Куре No 2 мод 5 тяжелого крейсера Асигара, май 1943'),
     (10, 'Kure_No_2_mod_5/Mogami_08.1943_bort.jpg',                         'Kure_No_2_mod_5/Mogami_08.1943_bort.jpg',                      'Куре No 2 мод 5 на тяжелом крейсере Могами, август 1943'),
     (10, 'Kure_No_2_mod_5/Yahagi_12.1943_.jpg',                             'Kure_No_2_mod_5/Yahagi_12.1943_.jpg',                          'Куре No 2 мод 5 на легком крейсере Яхаги, декабрь 1943'),
-    (10, 'Kure_No_3_mod_5/Sakawa_1945_0.jpg',                               'Kure_No_2_mod_5/Sakawa_1945_0.jpg',                            'Куре No 2 мод 5 на легком крейсере Сакава, 1945'),
+    (10, 'Kure_No_2_mod_5/Sakawa_1945_0.jpg',                               'Kure_No_2_mod_5/Sakawa_1945_0.jpg',                            'Куре No 2 мод 5 на легком крейсере Сакава, 1945'),
     (10, 'Kure_No_2_mod_5/Aoba_1945_.jpg',                                  'Kure_No_2_mod_5/Aoba_1945_.jpg',                               'Куре No 2 мод 5 на тяжелом крейсере Аоба, 1945'),
     (10, 'Kure_No_2_mod_5/Aoba_1945_0.jpg',                                 'Kure_No_2_mod_5/Aoba_1945_0.jpg',                              'Куре No 2 мод 5 на тяжелом крейсере Аоба, 1945'),
     (10, 'Kure_No_2_mod_5/Tone_1945_1.jpg',                                 'Kure_No_2_mod_5/Tone_1945_1.jpg',                              'Куре No 2 мод 5 на тяжелом крейсере Тоне, 1945'),

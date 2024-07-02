@@ -40,21 +40,21 @@ insert into pictures_ship
     (ship_id, path_small, path_full, description)
     values
     /* Тацута */
-    (13, 'light_cruisers/tenryu/tatsuta/Tatsuta_1919_0.jpg',                'light_cruisers/tenryu/tatsuta/Tatsuta_1919_0.jpg',                 'Тацута в 1919 году'),
-    (13, 'light_cruisers/tenryu/tatsuta/Tatsuta_1919_1.jpg',                'light_cruisers/tenryu/tatsuta/Tatsuta_1919_1.jpg',                 'Тацута, 1919 год'),
-    (13, 'light_cruisers/tenryu/Tenryu_scheme_1919.png',                    'light_cruisers/tenryu/Tenryu_scheme_1919.png',                     'схема крейсеров типа Тенрю на 1919 год'),
-    (13, 'light_cruisers/tenryu/Tenryu_midship_frame_scheme.png',           'light_cruisers/tenryu/Tenryu_midship_frame_scheme.png',            'мидель шпангоут легких крейсеров типа Тенрю'),
-    (13, 'light_cruisers/tenryu/tatsuta/Tatsuta_0.jpg',                     'light_cruisers/tenryu/tatsuta/Tatsuta_0.jpg',                      'легкий крейсер Тацута'),
-    (13, 'light_cruisers/tenryu/tatsuta/Tatsuta_192x.jpg',                  'light_cruisers/tenryu/tatsuta/Tatsuta_192x.jpg',                   'Тацута (слева) в 1920х'),
-    (13, 'light_cruisers/tenryu/tatsuta/Tatsuta_1.jpg',                     'light_cruisers/tenryu/tatsuta/Tatsuta_1.jpg',                      'легкий крейсер Тацута'),
-    (13, 'light_cruisers/tenryu/Tenryu_scheme_1919_1937.png',               'light_cruisers/tenryu/Tenryu_scheme_1919_1937.png',                'схема крейсеров типа Тенрю с 1919 по 1937'),
-    (13, 'light_cruisers/tenryu/Trunryu_turbines_scheme.png',               'light_cruisers/tenryu/Trunryu_turbines_scheme.png',                'схема машинных отделений крейсеров типа Тенрю'),
-    (13, 'light_cruisers/tenryu/tatsuta/Tatsuta_1927.jpg',                  'light_cruisers/tenryu/tatsuta/Tatsuta_1927.jpg',                   'Тацута в 1927 году'),
-    (13, 'light_cruisers/tenryu/tatsuta/Tatsuta_1928.jpg',                  'light_cruisers/tenryu/tatsuta/Tatsuta_1928.jpg',                   'Тацута, 1928 год'),
-    (13, 'light_cruisers/tenryu/tatsuta/Tatsuta_Nagato_Mutsu_1928.jpg',     'light_cruisers/tenryu/tatsuta/Tatsuta_Nagato_Mutsu_1928.jpg',      'Тацута, Нагато и Муцу, 1928 год'),
-    (13, 'light_cruisers/tenryu/tatsuta/Tatsuta_1932.jpg',                  'light_cruisers/tenryu/tatsuta/Tatsuta_1932.jpg',                   'Тацута в 1932'),
-    (13, 'light_cruisers/tenryu/tatsuta/Tatsuta_2.jpg',                     'light_cruisers/tenryu/tatsuta/Tatsuta_2.jpg',                      'легкий крейсер Тацута'),
-    (13, 'light_cruisers/tenryu/tatsuta/Tatsuta_Tenryu_09.1941_Truk.jpg',   'light_cruisers/tenryu/tatsuta/Tatsuta_Tenryu_09.1941_Truk.png',    'легкие кресера Тацута и Тенрю, сентябрь 1941'),
-    (13, 'light_cruisers/tenryu/tatsuta/Tenryu_Tatsuta_1942_from_Aoba.png', 'light_cruisers/tenryu/tatsuta/Tenryu_Tatsuta_1942_from_Aoba.png',  'Тенрю и Тацута в 1942, фотография с тяжелого крейсера Аоба');
+    (13, 'light_cruisers/tenryu/tatsuta/Tatsuta_1919_0.jpg',                'light_cruisers/tenryu/tatsuta/Tatsuta_1919_0.jpg',                     'Тацута в 1919 году'),
+    (13, 'light_cruisers/tenryu/tatsuta/Tatsuta_1919_1.jpg',                'light_cruisers/tenryu/tatsuta/Tatsuta_1919_1.jpg',                     'Тацута, 1919 год'),
+    (13, 'light_cruisers/tenryu/Tenryu_scheme_1919.png',                    'light_cruisers/tenryu/Tenryu_scheme_1919.png',                         'схема крейсеров типа Тенрю на 1919 год'),
+    (13, 'light_cruisers/tenryu/Tenryu_midship_frame_scheme.png',           'light_cruisers/tenryu/Tenryu_midship_frame_scheme.png',                'мидель шпангоут легких крейсеров типа Тенрю'),
+    (13, 'light_cruisers/tenryu/tatsuta/Tatsuta_0.jpg',                     'light_cruisers/tenryu/tatsuta/Tatsuta_0.jpg',                          'легкий крейсер Тацута'),
+    (13, 'light_cruisers/tenryu/tatsuta/Tatsuta_192x.jpg',                  'light_cruisers/tenryu/tatsuta/Tatsuta_192x.jpg',                       'Тацута (слева) в 1920х'),
+    (13, 'light_cruisers/tenryu/tatsuta/Tatsuta_1.jpg',                     'light_cruisers/tenryu/tatsuta/Tatsuta_1.jpg',                          'легкий крейсер Тацута'),
+    (13, 'light_cruisers/tenryu/Tenryu_scheme_1919_1937.png',               'light_cruisers/tenryu/Tenryu_scheme_1919_1937.png',                    'схема крейсеров типа Тенрю с 1919 по 1937'),
+    (13, 'light_cruisers/tenryu/Trunryu_turbines_scheme.png',               'light_cruisers/tenryu/Trunryu_turbines_scheme.png',                    'схема машинных отделений крейсеров типа Тенрю'),
+    (13, 'light_cruisers/tenryu/tatsuta/Tatsuta_1927.jpg',                  'light_cruisers/tenryu/tatsuta/Tatsuta_1927.jpg',                       'Тацута в 1927 году'),
+    (13, 'light_cruisers/tenryu/tatsuta/Tatsuta_1928.jpg',                  'light_cruisers/tenryu/tatsuta/Tatsuta_1928.jpg',                       'Тацута, 1928 год'),
+    (13, 'light_cruisers/tenryu/tatsuta/Tatsuta_Nagato_Mutsu_1928.jpg',     'light_cruisers/tenryu/tatsuta/Tatsuta_Nagato_Mutsu__09-10.1927.jpg',   'Тацута, Нагато и Муцу, сентябрь - октябрь 1927'),
+    (13, 'light_cruisers/tenryu/tatsuta/Tatsuta_1932.jpg',                  'light_cruisers/tenryu/tatsuta/Tatsuta_1932.jpg',                       'Тацута в 1932'),
+    (13, 'light_cruisers/tenryu/tatsuta/Tatsuta_2.jpg',                     'light_cruisers/tenryu/tatsuta/Tatsuta_2.jpg',                          'легкий крейсер Тацута'),
+    (13, 'light_cruisers/tenryu/tatsuta/Tatsuta_Tenryu_09.1941_Truk.jpg',   'light_cruisers/tenryu/tatsuta/Tatsuta_Tenryu_09.1941_Truk.png',        'легкие кресера Тацута и Тенрю, сентябрь 1941'),
+    (13, 'light_cruisers/tenryu/tatsuta/Tenryu_Tatsuta_1942_from_Aoba.png', 'light_cruisers/tenryu/tatsuta/Tenryu_Tatsuta_1942_from_Aoba.png',      'Тенрю и Тацута в 1942, фотография с тяжелого крейсера Аоба');
 
 

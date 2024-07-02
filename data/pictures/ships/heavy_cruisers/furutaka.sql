@@ -67,6 +67,7 @@ insert into pictures_ship
     (39, 'heavy_cruisers/furutaka/kako/Kako_21.06.1928.jpg',                'heavy_cruisers/furutaka/kako/Kako_21.06.1928.jpg',                 'Како 21 июня 1928'),
     (39, 'heavy_cruisers/furutaka/kako/Kako_21.06.1928_.jpg',               'heavy_cruisers/furutaka/kako/Kako_21.06.1928_.jpg',                'Како 21.06.1928'),
     (39, 'heavy_cruisers/furutaka/kako/Kako_12.1928_Tokio_bay.jpg',         'heavy_cruisers/furutaka/kako/Kako_12.1928_Tokio_bay.jpg',          'Како в Токийском заливе, декабрь 1928'),
+    (39, 'heavy_cruisers/furutaka/kako/Kako_Nagato.jpg',                    'heavy_cruisers/furutaka/kako/Kako_Nagato.jpg',                     'Како и линкор Нагато'),
     (39, 'heavy_cruisers/furutaka/kako/Kako_.jpg',                          'heavy_cruisers/furutaka/kako/Kako_.jpg',                           'тяжелый крейсер Како, на башне видна часть платформы'),
     (39, 'heavy_cruisers/furutaka/kako/Kako_24.08.1933.jpg',                'heavy_cruisers/furutaka/kako/Kako_24.08.1933.jpg',                 'Како 24 августа 1933'),
     (39, 'heavy_cruisers/furutaka/kako/Kako_scheme_1935.png',               'heavy_cruisers/furutaka/kako/Kako_scheme_1935.png',                'схема крейсера Како на 1935 год'),

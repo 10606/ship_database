@@ -4,6 +4,9 @@ insert into aircraft_list
         mass, max_mass, engine_power, max_speed, cruise_speed,
         range, range_with_tank, ceiling, time_to_altitude, in_service)
     values
+    (153,'летающая лодка тип 15',           'Hiro H1H',         7, 35, 6,
+     4020, 6100,    900,    170, 155,   2250, null, 3.0,    11.3,   '1926-01-01'), /* 2* 7.7mm */ /* 300кг */
+    
     (75, 'летающая лодка тип 91',           'Hiro H4H',         7, 35, 6, /* 3* 7.7mm */ /* 2* 250кг */
      7500, 7500,   1600,    233, null,  1260, null, 3.6,    null,   '1933-01-01'),
 
