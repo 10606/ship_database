@@ -21,6 +21,7 @@ insert into pictures_ship
     (59, 'aircraft_carriers/ryujo/Ryujo_19.06.1933_1.jpg',                              'aircraft_carriers/ryujo/Ryujo_19.06.1933_0.jpg',                               'Рюдзе 10 июня 1933'),
     (59, 'aircraft_carriers/ryujo/Ryujo_1933_3.jpg',                                    'aircraft_carriers/ryujo/Ryujo_1933_3.jpg',                                     'Рюдзе в 1933 году'),
     (59, 'aircraft_carriers/ryujo/Ryujo_24.08.1933.jpg',                                'aircraft_carriers/ryujo/Ryujo_24.08.1933.jpg',                                 'Рюдзе 24 августа 1933'),
+    (59, 'aircraft_carriers/ryujo/Akagi_Ryujo_24.08.1933.jpg',                          'aircraft_carriers/ryujo/Akagi_Ryujo_24.08.1933.jpg',                           'Акаги и Рюдзе 24.08.1933'),
     (59, 'aircraft_carriers/ryujo/Ryujo__before_1934_0.jpg',                            'aircraft_carriers/ryujo/Ryujo__before_1934_0.jpg',                             'авианосец Рюдзе'),
     (59, 'aircraft_carriers/ryujo/Ryujo__before_1934_1.jpg',                            'aircraft_carriers/ryujo/Ryujo__before_1934_1.jpg',                             'авианосец Рюдзе'),
     (59, 'aircraft_carriers/ryujo/Ryujo_1933_1.jpg',                                    'aircraft_carriers/ryujo/Ryujo_1933_1.jpg',                                     'авианосец Рюдзе, 1933 год'),

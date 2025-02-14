@@ -129,7 +129,8 @@ insert into pictures_catapult
     (10, 'Kure_No_2_mod_5/Chiyoda_04.1940_6.jpg',                           'Kure_No_2_mod_5/Chiyoda_04.1940_6.jpg',                        'Куре No 2 мод 5 гидроавианосца Тиеда, eпрель 1940'),
     (10, 'Kure_No_2_mod_5/Mizuho_1939_4.jpg',                               'Kure_No_2_mod_5/Mizuho_1939_4.jpg',                            'катапульты Куре No 2 мод 5 гидроавианосца Мидзухо в 1939 году'),
     (10, 'Kure_No_2_mod_5/Mizuho_1939_3.jpg',                               'Kure_No_2_mod_5/Mizuho_1939_3.jpg',                            'E7K2 и кормовая катапульта Куре No 2 мод 5 гидроавианосца Мидзухо, 1939 год'),
-    (10, 'Kure_No_2_mod_5/Mizuho_1939_6.jpg',                               'Kure_No_2_mod_5/Mizuho_1939_6.jpg',                            'носовая катапульта Куре No 2 мод 5 гидроавианосца Мидзухо, 1939 год');
+    (10, 'Kure_No_2_mod_5/Mizuho_1939_6.jpg',                               'Kure_No_2_mod_5/Mizuho_1939_6.jpg',                            'носовая катапульта Куре No 2 мод 5 гидроавианосца Мидзухо, 1939 год'),
+    (10, 'Kure_No_2_mod_5/E13A.jpg',                                        'Kure_No_2_mod_5/E13A.jpg',                                     'E13A на катупульте Куре No 2 мод 5');
 
 
 insert into pictures_catapult

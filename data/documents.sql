@@ -69,6 +69,19 @@ insert into documents_general
 insert into documents_general
     (group_id, path_document, path_preview, description, priority)
     values
+    (2, 'USNTMJ_reports/S/S-01-1___ships_part_1_submarines.pdf',            'USNTMJ_reports/S/S-01-1_ships_part_1_submarines/I-1__I-12.png',                                    'S-01-1 подводные лодки',                   0),
+    (2, 'USNTMJ_reports/S/S-01-2___ships_part_2_machinery.pdf',             'USNTMJ_reports/S/S-01-2_ships_part_2_machinery/Sakawa__control_booth_center_engine_room_0.png',    'S-01-2 машинные и котельные отделения',    1),
+    (2, 'USNTMJ_reports/S/S-01-3___ships_part_3_hull.pdf',                  'USNTMJ_reports/S/S-01-3_ships_part_3_hull_design/armor_connection.png',                            'S-01-3 дизайн корпуса',                    2),
+    (2, 'USNTMJ_reports/S/S-01-4___ships_part_4_machinery.pdf',             'USNTMJ_reports/S/S-01-4_ships_part_4_ships_machinery/akizuki_turbines.png',                        'S-01-4 силовые установки',                 3),
+    (2, 'USNTMJ_reports/S/S-01-5___ships_part_5_electrical_equipment.pdf',  'USNTMJ_reports/S/S-01-5_ships_part_5_electrical_equipment/sakawa__main_control_switchboard_0.png', 'S-01-5 электрооборудование',               4),
+    (2, 'USNTMJ_reports/S/S-01-6___ships_part_6_submarines.pdf',            'USNTMJ_reports/S/S-01-6_ships_part_6_submarines/I-201_scheme.png',                                 'S-01-6 подводные лодки',                   5),
+    (2, 'USNTMJ_reports/S/S-01-7___ships_part_7_submarines.pdf',            'USNTMJ_reports/S/S-01-7_ships_part_7_submarines/I-401.png',                                        'S-01-7 подводные лодки',                   6),
+    (2, 'USNTMJ_reports/S/S-01-8___ships_part_8_pumps.pdf',                 'USNTMJ_reports/S/S-01-8_ships_part_8_gasoline_driven_pump/gasoline_driven_pump_unit__scheme.png',  'S-01-8 бензиновая помпа',                  7),
+
+
+insert into documents_general
+    (group_id, path_document, path_preview, description, priority)
+    values
     (3, 'USNTMJ_reports/X/X-02-1__infra_red_part_1_rocket_control.pdf',     'USNTMJ_reports/X/X-02-1__infra_red_part_1_rocket_control__airbone_glider_model_106_0.png',                 'X-02-1 инфракрасное управление для ракет',         0),
     (3, 'USNTMJ_reports/X/X-02-2__infra_red_part_2_heat_locator.pdf',       'USNTMJ_reports/X/X-02-2__infra_red_part_2_heat_locator__heat_ray_detector_type_5.png',                     'X-02-2 инфракрасные детекторы источников тепла',   1),
     (3, 'USNTMJ_reports/X/X-02-3__infra_red_part_3_research.pdf',           'USNTMJ_reports/X/X-02-3__infra_red_part_3_research__photophone_0.png',                                     'X-02-3 инфракрасные приборы связи',                2),

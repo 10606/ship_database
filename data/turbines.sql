@@ -88,7 +88,16 @@ insert into steam_turbine
     
     (86, 'Кампон высокого давления',                    'Kampon high pressure',                     null,   null,   null,   null), /* 4* тип Ямато */
     (87, 'Кампон среднего давления',                    'Kampon intermediate pressure',             null,   null,   null,   null), /* 4* тип Ямато */
-    (88, 'Кампон низкого давления',                     'Kampon low pressure',                      null,   null,   null,   null); /* 4* тип Ямато */
+    (88, 'Кампон низкого давления',                     'Kampon low pressure',                      null,   null,   null,   null), /* 4* тип Ямато */
+    
+    (90, 'Парсон высокого давления',                    'Parson high pressure',                     null,   null,   null,   null), /*  8* Конго до 1935, Хией до 1936, Кирисима до 1934 */
+    (91, 'Парсон среднего давления',                    'Parson intermediate pressure',             null,   null,   null,   null), /*  4* Конго до 1935, Хией до 1936, Кирисима до 1934 */
+    (92, 'Парсон низкого давления',                     'Parson low pressure',                      null,   null,   null,   null), /*  4* Конго до 1935, Хией до 1936, Кирисима до 1934 */
+    (93, 'Браун-Кертис высокого давления',              'Brown-Curtis high pressure',               null,   null,   null,   null), /*  8* Харуна до 1933 */
+    (94, 'Браун-Кертис среднего давления',              'Brown-Curtis intermediate pressure',       null,   null,   null,   null), /*  4* Харуна до 1933 */
+    (95, 'Браун-Кертис низкого давления',               'Brown-Curtis low pressure',                null,   null,   null,   null), /*  4* Харуна до 1933 */
+    (96, 'Кампон высокого давления',                    'Kampon high pressure',                     null,   null,   null,   null), /*  8* Конго после 1937, Хией после 1940, Кирисима после 1936, Харуна после 1934 */
+    (97, 'Кампон низкого давления',                     'Kampon low pressure',                      null,   null,   null,   null); /* 16* Конго после 1937, Хией после 1940, Кирисима после 1936, Харуна после 1934 */
     
     
 /* турбины крейсерского хода */
@@ -117,7 +126,9 @@ insert into steam_turbine_cruise
     (79, 'Кампон',                      'Kampon',                   null,   null,   3000,   null), /* 2* тип Титосе */
 
     
-    (89, 'Кампон',                      'Kampon',                   null,   null,   4500,   null); /* 4* тип Ямато */
+    (89, 'Кампон',                      'Kampon',                   null,   null,   4500,   null), /* 4* тип Ямато */
+    (98, 'Парсон',                      'Parson',                   null,   null,   null,   null), /* 4* Конго до 1935, Хией до 1936, Кирисима до 1934 */
+    (99, 'Кампон',                      'Kampon',                   null,   null,   null,   null); /* 2* (на внешних винтах) Конго после 1937, Хией после 1940, Кирисима после 1936, Харуна после 1934 */
     
     
 /* турбины заднего хода */
