@@ -15,6 +15,7 @@ insert into pictures_ship
     (40, 'heavy_cruisers/takao/takao/Takao_20.02.1932.png',                             'heavy_cruisers/takao/takao/Takao_20.02.1932.png',                              'Такао 20.02.1932'),
     (40, 'heavy_cruisers/takao/takao/Takao_31.03.1932.jpg',                             'heavy_cruisers/takao/takao/Takao_31.03.1932.jpg',                              'Такао 31 марта 1932'),
     (40, 'heavy_cruisers/takao/takao/Takao_31.03.1932_.jpg',                            'heavy_cruisers/takao/takao/Takao_31.03.1932_.jpg',                             'Такао 31.03.1932'),
+    (40, 'heavy_cruisers/takao/takao/Yamashiro__Takao__20.04.1932__Yokosuka.jpg',       'heavy_cruisers/takao/takao/Yamashiro__Takao__20.04.1932__Yokosuka.jpg',        'Ямасиро и Такао в Йокосуке, 20.04.1932'),
     (40, 'heavy_cruisers/takao/takao/Takao_05.1932.png',                                'heavy_cruisers/takao/takao/Takao_05.1932.png',                                 'Такао в мае 1932'),
     (40, 'heavy_cruisers/takao/takao/Takao_superstructure_07.1932.png',                 'heavy_cruisers/takao/takao/Takao_superstructure_07.1932.png',                  'надстройка Такао на июль 1932'),
     (40, 'heavy_cruisers/takao/takao/Takao_10.07.1932.jpg',                             'heavy_cruisers/takao/takao/Takao_10.07.1932.jpg',                              'тяжелый крейсер Такао 10.07.1932'),

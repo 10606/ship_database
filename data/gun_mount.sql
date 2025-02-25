@@ -223,11 +223,15 @@ insert into gun_mount
 
     /* 7.7мм тяжелый */
     (62,  null,                              null,          24, 2, null),
+    (72,  null,                              null,          24, 1, null),
+    
+    /* 7.7mm type 89 fixed (Vickers) */
+    (73, null,                               null,          35, 1, null),
     
     /* 6.5mm type 3 */
     (50,  null,                              null,          26, 1, 85),
     
-    /* 6.5mm для Конго */
+    /* 6.5mm Schwazlose */
     (71,  null,                              null,          46, 1, null),
     
     /* 13.2mm type 93 */

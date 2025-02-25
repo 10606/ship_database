@@ -21,7 +21,7 @@ insert into pictures_ship
     (58, 'aircraft_carriers/kaga/Kaga_05.12.1929_1.jpg',                                    'aircraft_carriers/kaga/Kaga_05.12.1929_1.jpg',                                     'Кага, 05.12.1929'),
     (58, 'aircraft_carriers/kaga/Kaga_05.12.1929_0.jpg',                                    'aircraft_carriers/kaga/Kaga_05.12.1929_0.jpg',                                     'Кага 5 декабря 1929'),
     (58, 'aircraft_carriers/kaga/Kaga_05.12.1929_2.jpg',                                    'aircraft_carriers/kaga/Kaga_05.12.1929_2.jpg',                                     'Кага 5 декабря 1929 года'),
-    (58, 'aircraft_carriers/kaga/Yamashiro_Kaga_1930.jpg',                                  'aircraft_carriers/kaga/Yamashiro_Kaga_1930.jpg',                                   'Ямасиро и Кага, 1930'),
+    (58, 'aircraft_carriers/kaga/Yamashiro_Kaga_1930.jpg',                                  'aircraft_carriers/kaga/Yamashiro_Kaga_10.1930_Kobe.jpg',                           'Ямасиро и Кага в Кобе, октябрь 1930'),
     (58, 'aircraft_carriers/kaga/Kaga_1930_1.jpg',                                          'aircraft_carriers/kaga/Kaga_1930_0.jpg',                                           'Кага в 1930 году'),
     (58, 'aircraft_carriers/kaga/Kaga_1930_2.jpg',                                          'aircraft_carriers/kaga/Kaga_1930_2.jpg',                                           'Кага, 1930 год'),
     (58, 'aircraft_carriers/kaga/Kaga_1930__A1N_B1M_1_color.jpeg',                          'aircraft_carriers/kaga/Kaga_1930__A1N_B1M_2_flight_training.jpg',                  'Кага в 1930, на палубах видны A1N и B1M'),
