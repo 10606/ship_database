@@ -17,6 +17,7 @@ insert into pictures_ship
     (243, 'destroyers/akizuki/akizuki/Akizuki_schema_0.png',                                'destroyers/akizuki/akizuki/Akizuki_schema_0.png',                                  'схема вентиляции котельных и машинных отделений Акидзуки'),
     (243, 'destroyers/akizuki/akizuki/Akizuki_13-14.03.1943_Saipan.jpg',                    'destroyers/akizuki/akizuki/Akizuki_13-14.03.1943_Saipan.jpg',                      'Акидзуки в Сайпане, март 1943'),
     (243, 'destroyers/akizuki/akizuki/Akizuki_1944.png',                                    'destroyers/akizuki/akizuki/Akizuki_1944.png',                                      'эсминец Акидзуки в 1944 году'),
+    (243, 'destroyers/akizuki/akizuki/Ise_Akizuki_25.10.1944_Battle_Cape_Engano.jpg',       'destroyers/akizuki/akizuki/Ise_Akizuki_25.10.1944_Battle_Cape_Engano.jpg',         'Исе и Акидзуки 25.10.1944, сражение у мыса Энганьо'),
     (243, 'destroyers/akizuki/akizuki/Akizuki_25.10.1944_Engano.jpg',                       'destroyers/akizuki/akizuki/Akizuki_25.10.1944_Engano.jpg',                         'Акидзуки 25.10.1944 у мыса Энганьо'),
     (243, 'destroyers/akizuki/akizuki/Akizuki_Kuwa_Ise_25.10.44_Engano.jpg',                'destroyers/akizuki/akizuki/Akizuki_Kuwa_Ise_25.10.44_Engano.jpg',                  'Акидзуки, Кува и Исе, 25.10.1944'),
 

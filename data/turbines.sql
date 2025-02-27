@@ -102,7 +102,15 @@ insert into steam_turbine
     (100,   'Браун-Кертис высокого давления',               'Brown-Curtis high pressure',               null,   null,   null,   null), /* 8* Фусо, Ямасиро до 1930 */
     (101,   'Браун-Кертис низкого давления',                'Brown-Curtis low pressure',                null,   null,   null,   null), /* 4* Фусо, Ямасиро до 1930 */
     (102,   'Кампон высокого давления',                     'Kampon high pressure',                     null,   null,   null,   null), /* 8* Фусо после 1932, Ямасиро после 1935 */
-    (103,   'Кампон низкого давления',                      'Kampon low pressure',                      null,   null,   null,   null); /* 8* Фусо после 1932, Ямасиро после 1935 */
+    (103,   'Кампон низкого давления',                      'Kampon low pressure',                      null,   null,   null,   null), /* 8* Фусо после 1932, Ямасиро после 1935 */
+    
+    (105,   'Браун-Кертис высокого давления',               'Brown-Curtis high pressure',               null,   null,   null,   null), /* 2* Исе до 1934 */
+    (106,   'Браун-Кертис среднего давления',               'Brown-Curtis intermediate pressure',       null,   null,   null,   null), /* 2* Исе до 1934 */
+    (107,   'Парсон высокого давления',                     'Parson high pressure',                     null,   null,   null,   null), /* 4* Хьюга до 1934 */
+    (108,   'Парсон среднего давления',                     'Parson intermediate pressure',             null,   null,   null,   null), /* 4* Хьюга до 1934 */
+    (109,   'Парсон низкого давления',                      'Parson low pressure',                      null,   null,   null,   null), /* 8* Хьюга до 1934 */
+    (110,   'Кампон высокого давления',                     'Kampon high pressure',                     null,   null,   null,   null), /* 8* Исе после 1937, Хьюга после 1936 */
+    (111,   'Кампон низкого давления',                      'Kampon low pressure',                      null,   null,   null,   null); /* 8* Исе после 1937, Хьюга после 1936 */
     
     
 /* турбины крейсерского хода */
@@ -134,7 +142,8 @@ insert into steam_turbine_cruise
     (89,    'Кампон',                   'Kampon',                   null,   null,   4500,   null), /* 4* тип Ямато */
     (98,    'Парсон',                   'Parson',                   null,   null,   null,   null), /* 4* Конго до 1935, Хией до 1936, Кирисима до 1934 */
     (99,    'Кампон',                   'Kampon',                   null,   null,   null,   null), /* 2* (на внешних винтах) Конго после 1937, Хией после 1940, Кирисима после 1936, Харуна после 1934 */
-    (104,   'Кампон',                   'Kampon',                   null,   null,   null,   null); /* 8* Фусо после 1932, Ямасиро после 1935 */
+    (104,   'Кампон',                   'Kampon',                   null,   null,   null,   null), /* 8* Фусо после 1932, Ямасиро после 1935 */
+    (112,   'Кампон',                   'Kampon',                   null,   null,   null,   null); /* 8* Исе после 1937, Хьюга после 1936 */
     
     
 /* турбины заднего хода */

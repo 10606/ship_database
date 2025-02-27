@@ -68,6 +68,6 @@ insert into pictures_ship
     (5, 'battleships/fuso/yamashiro/Yamashiro_1937.jpg',                                'battleships/fuso/yamashiro/Yamashiro_1937.jpg',                                'Ямасиро в 1937 году'),
     (5, 'battleships/fuso/yamashiro/Yamashiro_1938.jpg',                                'battleships/fuso/yamashiro/Yamashiro_1938.jpg',                                'Ямасиро в 1938 году'),
     (5, 'battleships/fuso/yamashiro/Yamashiro__after_1938.jpg',                         'battleships/fuso/yamashiro/Yamashiro__after_1938.jpg',                         'носовые башни и надстройка линкора Ямасиро'),
-    (5, 'battleships/fuso/yamashiro/Yamashiro__after_1935.jpg',                         'battleships/fuso/yamashiro/Yamashiro__after_1935.jpg',                         'кормовые башни линкора Ямасиро, видны 127мм зенитные орудия тип 89'),
+    (5, 'battleships/fuso/yamashiro/Yamashiro__after_1935.jpg',                         'battleships/fuso/yamashiro/Yamashiro__after_1935.jpg',                         'кормовые башни линкора Ямасиро, видны 127мм зенитные орудия тип 89'), /* вероятно 1938 (подписано Тайсе 13, но скорее всего Сева) */
     (5, 'battleships/fuso/yamashiro/Yamashiro_24.10.1944_Surigao.jpg',                  'battleships/fuso/yamashiro/Yamashiro_24.10.1944_Surigao.jpg',                  'Ямасиро под ударом авиации в проливе Суригао, 24.10.1944');
     

@@ -1,0 +1,75 @@
+
+insert into pictures_ship
+    (ship_id, path_small, path_full, description)
+    values
+    /* Исе */
+    (6, 'battleships/ise/ise/Ise_1917.jpg',                                         'battleships/ise/ise/Ise_1917_.jpg',                                        'Исе в 1917 году'),
+    (6, 'battleships/ise/ise/Ise__before_1929.jpg',                                 'battleships/ise/ise/Ise__before_1929.jpg',                                 'линкор Исе'),
+    (6, 'battleships/ise/ise/Ise_1920x_before_1929_.jpg',                           'battleships/ise/ise/Ise_1920x_before_1929.jpg',                            'Исе в 1920х'),
+    (6, 'battleships/ise/ise/Ise_1927.jpg',                                         'battleships/ise/ise/Ise_1927.jpg',                                         'Исе в 1927 году'),
+    (6, 'battleships/ise/ise/Ise_05.08.1930.jpg',                                   'battleships/ise/ise/Ise_05.08.1930.jpg',                                   'Исе 05.08.1930'),
+    (6, 'battleships/ise/ise/Ise_12.03.1937.jpg',                                   'battleships/ise/ise/Ise_12.03.1937.jpg',                                   'Исе после модернизации 12.03.1937'),
+    (6, 'battleships/ise/ise/Ise_1937.jpg',                                         'battleships/ise/ise/Ise_1937.jpg',                                         'надстройка Исе в 1937 году'),
+    (6, 'battleships/ise/ise/Ise_24.08.1943_trial.jpg',                             'battleships/ise/ise/Ise_24.08.1943_trial.jpg',                             'Исе на испытаниях после модернизации, 24.08.1943'),
+    (6, 'battleships/ise/ise/Ise_1944_scheme.png',                                  'battleships/ise/ise/Ise_1944_scheme.png',                                  'схема линкора Исе на 1944 год'),
+    (6, 'battleships/ise/ise/Zuikaku_Ise_25.10.1944_Engano.jpg',                    'battleships/ise/ise/Zuikaku_Ise_25.10.1944_Engano.jpg',                    'Дзуйкаку и Исе 25.10.1944, сражение у мыса Энганьо'),
+    (6, 'battleships/ise/ise/Ise_Akizuki_25.10.1944_Battle_Cape_Engano.jpg',        'battleships/ise/ise/Ise_Akizuki_25.10.1944_Battle_Cape_Engano.jpg',        'Исе и Акидзуки 25.10.1944, сражение у мыса Энганьо'),
+    (6, 'battleships/ise/ise/Ise_25.10.1944_Battle_Cape_Engano_1.jpg',              'battleships/ise/ise/Ise_25.10.1944_Battle_Cape_Engano_1.jpg',              'Исе 25.10.1944, сражение у мыса Энганьо'),
+    (6, 'battleships/ise/ise/Akizuki_Kuwa_Ise_25.10.1944_Battle_Cape_Engano.jpg',   'battleships/ise/ise/Akizuki_Kuwa_Ise_25.10.1944_Battle_Cape_Engano.jpg',   'Акидзуки, Кува и Исе, 25.10.1944'),
+    (6, 'battleships/ise/ise/Ise_25.10.1944_Battle_Cape_Engano_2.jpeg',             'battleships/ise/ise/Ise_25.10.1944_Battle_Cape_Engano_2.jpeg',             'Исе 25.10.1944, сражение у мыса Энганьо'),
+    (6, 'battleships/ise/ise/Ise_25.10.1944_Battle_Cape_Engano_4.jpg',              'battleships/ise/ise/Ise_25.10.1944_Battle_Cape_Engano_4.jpg',              'Исе 25.10.1944, сражение у мыса Энганьо'),
+    (6, 'battleships/ise/ise/Ise_25.10.1944_Battle_Cape_Engano_5.jpg',              'battleships/ise/ise/Ise_25.10.1944_Battle_Cape_Engano_5.jpg',              'Исе 25.10.1944, сражение у мыса Энганьо'),
+    (6, 'battleships/ise/ise/Ise_24.07.1945_Kure.jpg',                              'battleships/ise/ise/Ise_24.07.1945_Kure.jpg',                              'Исе под ударом авиации в Куре, 24.07.1945'),
+    (6, 'battleships/ise/ise/Ise_07.1945_Kure.jpg',                                 'battleships/ise/ise/Ise_07.1945_Kure.jpg',                                 'Исе под ударом авиации в Куре, июль 1945'),
+    (6, 'battleships/ise/ise/Ise_28.07.1945_Kure.jpg',                              'battleships/ise/ise/Ise_28.07.1945_Kure.jpg',                              'Исе в Куре, 28.07.1945'),
+    (6, 'battleships/ise/ise/Ise_28.07.1945_burning_at_Kure.jpeg',                  'battleships/ise/ise/Ise_28.07.1945_burning_at_Kure.jpeg',                  'горящий Исе в Куре, 28.07.1945'),
+    (6, 'battleships/ise/ise/Ise_1945_Kure_0.jpg',                                  'battleships/ise/ise/Ise_1945_Kure_0.jpg',                                  'Исе в Куре, 1945, с левого борта 3 из 4 127мм тип 89 уже демонтированы'),
+    (6, 'battleships/ise/ise/Ise_1945_Kure_1.jpg',                                  'battleships/ise/ise/Ise_1945_Kure_1.jpg',                                  'Исе в Куре, 1945'),
+    (6, 'battleships/ise/ise/Ise_1945_Kure_2.jpg',                                  'battleships/ise/ise/Ise_1945_Kure_2.jpg',                                  'Исе в Куре, 1945'),
+    (6, 'battleships/ise/ise/Ise_1945_Kure_3.jpg',                                  'battleships/ise/ise/Ise_1945_Kure_3.jpg',                                  'Исе в Куре, 1945, видны строенные 25мм автоматы тип 96'),
+    (6, 'battleships/ise/ise/Ise_20.10.1945_2.jpg',                                 'battleships/ise/ise/Ise_20.10.1945_3.jpg',                                 'Исе 20.10.1945'),
+    (6, 'battleships/ise/ise/Ise_20.10.1945_1.jpg',                                 'battleships/ise/ise/Ise_20.10.1945_1.jpg',                                 'Исе 20.10.1945'),
+    (6, 'battleships/ise/ise/Ise_20.10.1945_0.jpg',                                 'battleships/ise/ise/Ise_20.10.1945_0.jpg',                                 'Исе 20.10.1945'),
+    (6, 'battleships/ise/ise/Ise_1945_Kure_4.jpg',                                  'battleships/ise/ise/Ise_1945_Kure_4.jpg',                                  'Исе в Куре, 1945, башни главного калибра уже демонтированы'),
+    (6, 'battleships/ise/ise/Ise__after_war.jpg',                                   'battleships/ise/ise/Ise__after_war.jpg',                                   'Исе в Куре');
+
+insert into pictures_ship
+    (ship_id, path_small, path_full, description)
+    values
+    /* Хьюга */
+    (7, 'battleships/ise/hyuga/Hyuga__building.jpg',                                'battleships/ise/hyuga/Hyuga__building.jpg',                                'строительство линкора Хьюга'),
+    (7, 'battleships/ise/hyuga/Hyuga_27.01.1917_launch.jpg',                        'battleships/ise/hyuga/Hyuga_27.01.1917_launch.jpg',                        'спуск на воду линкора Хьюга 27.01.1917'),
+    (7, 'battleships/ise/hyuga/Hyuga_1917_installation_356mm_in_turret_No_4_.jpg',  'battleships/ise/hyuga/Hyuga_1917_installation_356mm_in_turret_No_4_.jpg',  'установка 356мм орудия в 4 башню линкора Хьюга'),
+    (7, 'battleships/ise/hyuga/Hyuga_15.12.1917_.jpg',                              'battleships/ise/hyuga/Hyuga_15.12.1917_.jpg',                              'Хьюга 15.12.1917'),
+    (7, 'battleships/ise/hyuga/Hyuga_01.05.1927.jpg',                               'battleships/ise/hyuga/Hyuga_01.05.1927.jpg',                               'Хьюга 01.05.1927'),
+    (7, 'battleships/ise/hyuga/Hyuga_05-06.1927_.jpg',                              'battleships/ise/hyuga/Hyuga_05-06.1927_.jpg',                              'Хьюга в мае-июне 1927'),
+    (7, 'battleships/ise/hyuga/Hyuga__1927-1934_0.jpg',                             'battleships/ise/hyuga/Hyuga__1927-1934_0.jpg',                             'линкор Хьюга'),
+    (7, 'battleships/ise/hyuga/Hyuga__1927-1934_2.jpg',                             'battleships/ise/hyuga/Hyuga__1927-1934_2.jpg',                             'линкор Хьюга'),
+    (7, 'battleships/ise/hyuga/Hyuga__1927-1934_1.jpg',                             'battleships/ise/hyuga/Hyuga__1927-1934_1.jpg',                             'линкор Хьюга'),
+    (7, 'battleships/ise/hyuga/Hyuga_24.08.1933.jpg',                               'battleships/ise/hyuga/Hyuga_24.08.1933.jpg',                               'Хьюга 24.08.1933'),
+    (7, 'battleships/ise/hyuga/Hyuga_11.02.1934_.jpg',                              'battleships/ise/hyuga/Hyuga_11.02.1934_.jpg',                              'Хьюга 11.02.1934'),
+    (7, 'battleships/ise/hyuga/Hyuga_11.02.1934.jpg',                               'battleships/ise/hyuga/Hyuga_11.02.1934.jpg',                               'носовые башни ГК и надстройка линкора Хьюга 11.02.1934'),
+    (7, 'battleships/ise/hyuga/Hyuga_19.12.1938.jpg',                               'battleships/ise/hyuga/Hyuga_19.12.1938.jpg',                               'Хьюга 19.12.1938'),
+    (7, 'battleships/ise/hyuga/Hyuga_19.12.1938_.jpg',                              'battleships/ise/hyuga/Hyuga_19.12.1938_.jpg',                              'Хьюга 19.12.1938'),
+    (7, 'battleships/ise/hyuga/Hyuga_1940__Pu_Yi_(Kang_Te)_Japan_visit.jpg',        'battleships/ise/hyuga/Hyuga_1940__Pu_Yi_(Kang_Te)_Japan_visit.jpg',        'визит Пу И в Японию в 1940 году, на заднем плане виден линкор Хьюга'),
+    (7, 'battleships/ise/hyuga/Hyuga_04.12.1940_0.jpg',                             'battleships/ise/hyuga/Hyuga_04.12.1940_0.jpg',                             'Хьюга 04.12.1940'),
+    (7, 'battleships/ise/hyuga/Hyuga_1941.jpg',                                     'battleships/ise/hyuga/Hyuga_1941.jpg',                                     'Хьюга в 1941 году'),
+    (7, 'battleships/ise/hyuga/Hyuga_19.11.1943_trial_2.jpg',                       'battleships/ise/hyuga/Hyuga_19.11.1943_trial_2.jpg',                       'Хьюга на испытаниях 19.11.1943'),
+    (7, 'battleships/ise/hyuga/Hyuga_19.11.1943_trial_0.jpg',                       'battleships/ise/hyuga/Hyuga_19.11.1943_trial_0.jpg',                       'Хьюга на испытаниях 19.11.1943'),
+    (7, 'battleships/ise/hyuga/Hyuga__1936-1943.jpg',                               'battleships/ise/hyuga/Hyuga__1936-1943.jpg',                               'линкор Хьюга'),
+    (7, 'battleships/ise/hyuga/Hyuga_23.06.1944_E16A_Zuiun.jpg',                    'battleships/ise/hyuga/Hyuga_23.06.1944_E16A_Zuiun.jpg',                    'Хьюга запускает E16A Zuiun, 23.06.1944'),
+    (7, 'battleships/ise/hyuga/Hyuga_24.07.1945_Kure.jpg',                          'battleships/ise/hyuga/Hyuga_24.07.1945_Kure.jpg',                          'Хьюга под ударом авиации в Куре 24.07.1945'),
+    (7, 'battleships/ise/hyuga/Hyuga_28.07.1945_Kure.jpg',                          'battleships/ise/hyuga/Hyuga_28.07.1945_Kure.jpg',                          'Хьюга лежит на грунте 28.07.1945'),
+    (7, 'battleships/ise/hyuga/Hyuga_1945_Kure_6.jpg',                              'battleships/ise/hyuga/Hyuga_1945_Kure_6.jpg',                              'линкор Хьюга в Куре, видно разлившееся топливо'),
+    (7, 'battleships/ise/hyuga/Hyuga_1945_Kure_1.jpg',                              'battleships/ise/hyuga/Hyuga_1945_Kure_1.jpg',                              'линкор Хьюга в Куре'),
+    (7, 'battleships/ise/hyuga/Hyuga_1945_Kure_4.jpeg',                             'battleships/ise/hyuga/Hyuga_1945_Kure_4.jpeg',                             'линкор Хьюга в Куре'),
+    (7, 'battleships/ise/hyuga/Hyuga__after_war.jpg',                               'battleships/ise/hyuga/Hyuga__after_war.jpg',                               'линкор Хьюга в Куре'),
+    (7, 'battleships/ise/hyuga/Hyuga_1945_Kure_0.jpg',                              'battleships/ise/hyuga/Hyuga_1945_Kure_0.jpg',                              'надстройка линкора Хьюга, хорошо виден дальномер и радар тип 21'),
+    (7, 'battleships/ise/hyuga/Hyuga_09.10.1945_Kure.jpg',                          'battleships/ise/hyuga/Hyuga_09.10.1945_Kure.jpg',                          'Хьюга в Куре 09.10.1945'),
+    (7, 'battleships/ise/hyuga/Hyuga_20.10.1945.jpeg',                              'battleships/ise/hyuga/Hyuga_20.10.1945.jpeg',                              'Хьюга в Куре 20.10.1945'),
+    (7, 'battleships/ise/hyuga/Hyuga_1945_Kure_8.jpg',                              'battleships/ise/hyuga/Hyuga_1945_Kure_8.jpg',                              'носовые башни и надстройка линкора Хьюга'),
+    (7, 'battleships/ise/hyuga/Hyuga_1945_Kure_7.jpg',                              'battleships/ise/hyuga/Hyuga_1945_Kure_7.jpg',                              'линкор Хьюга в Куре'),
+    (7, 'battleships/ise/hyuga/Hyuga_1945_Kure_3.jpg',                              'battleships/ise/hyuga/Hyuga_1945_Kure_3.jpg',                              'линкор Хьюга в Куре'),
+    (7, 'battleships/ise/hyuga/Hyuga_1946.jpeg',                                    'battleships/ise/hyuga/Hyuga_1946.jpeg',                                    'Хьюга в 1946 году');
+            
+
